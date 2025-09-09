@@ -29,6 +29,10 @@ export default function Home() {
             </div>
             <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
         </header>
+
+
+        {/*Conteúdo das página */}
+
         
         <footer className="fixed bottom-0 w-full">
             <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
