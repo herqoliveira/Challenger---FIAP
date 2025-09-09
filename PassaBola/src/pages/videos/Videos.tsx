@@ -4,6 +4,8 @@ import casa from "../../imgs/home.png";
 import video from "../../imgs/video.png";
 import bola from "../../imgs/bola.png";
 import perfil from "../../imgs/perfil.png";
+import video1 from "../../imgs/video1.png";
+import jogadora1 from "../../imgs/jogadora1.png";
 
 export default function Videos() {
     return (
@@ -33,10 +35,13 @@ export default function Videos() {
 
         <div className="flex justify-center">
             <div className="gap-10">
-                <img src="" alt="" className="w-10 h-10"/>
-                <div className="bg-white w-70 h40 flex flex-col">
-                    <img src="" alt="" className="p-4 w-50 h-20"/>
-                    <p className="text-black"></p>
+                <div className="flex gap-5">
+                    <img src={jogadora1} alt="" className="w-10 h-10"/>
+                    <p className="py-1.5">Ana Carvalho Oliveira</p>
+                </div>
+                <div className="bg-white w-90 h-75 flex flex-col rounded-lg">
+                    <img src={video1} alt="" className="p-4 w-90 h-50 rounded-lg"/>
+                    <p className="text-black px-4">Olhem o gol que fiz ontem no final do Campeonato Tocantis Delas. Ganhamos e ganhei a medalha de melhor do time!!</p>
                 </div>
             </div>
         </div>
