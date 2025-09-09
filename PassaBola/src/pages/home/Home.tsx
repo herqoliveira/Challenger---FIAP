@@ -1,9 +1,12 @@
 import logo from "../../imgs/logopassabola.png";
 import casa from "../../imgs/home.png";
+import video from "../../imgs/video.png";
+import bola from "../../imgs/bola.png";
+import perfil from "../../imgs/perfil.png";
 
 export default function Home() {
     return (
-    <div className="min-h-screen flex flex-col bg-black text-white">
+    <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
         <header className="w-full shadow-md">
             <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
 
@@ -24,13 +27,16 @@ export default function Home() {
                 />
 
             </div>
-            <div className="w-full h-1 bg-[#439151]"></div>
+            <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
         </header>
         
-        <footer>
-            <div className="w-full h-1 bg-[#439151]"></div>
-            <div className="flex gap-5">
-                <img src={casa} alt="" />
+        <footer className="fixed bottom-0 w-full">
+            <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
+            <div className="flex gap-20 justify-center">
+                <img src={casa} alt="" className="w-10 h-10"/>
+                <img src={video} alt="" className="w-10 h-10"/>
+                <img src={bola} alt="" className="w-10 h-10"/>
+                <img src={perfil} alt="" className="w-10 h-10"/>
             </div>
         </footer>
 
