@@ -121,11 +121,15 @@ export default function Jogos() {
                 <Link to="/home">
                     <img src={casa} alt="" className="w-10 h-10"/>
                 </Link>
-                <img src={video} alt="" className="w-10 h-10"/>
+                <Link to="/videos">
+                    <img src={video} alt="" className="w-10 h-10"/>
+                </Link>
                 <Link to="/jogos">
                     <img src={bola} alt="Perfil" className="w-10 h-10" />
                 </Link>
-                <img src={perfil} alt="" className="w-10 h-10"/>
+                <Link to="/perfil">
+                    <img src={perfil} alt="" className="w-10 h-10"/>
+                </Link>
             </div>
         </footer>
     </div>

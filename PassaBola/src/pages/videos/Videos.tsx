@@ -5,7 +5,7 @@ import video from "../../imgs/video.png";
 import bola from "../../imgs/bola.png";
 import perfil from "../../imgs/perfil.png";
 
-export default function Home() {
+export default function Videos() {
     return (
     <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
         <header className="w-full shadow-md z-2">
@@ -40,13 +40,11 @@ export default function Home() {
                 <Link to="/home">
                     <img src={casa} alt="" className="w-10 h-10"/>
                 </Link>
-                <Link to="/videos">
-                    <img src={video} alt="" className="w-10 h-10"/>
-                </Link>
+                <img src={video} alt="" className="w-10 h-10"/>
                 <Link to="/jogos">
                     <img src={bola} alt="Perfil" className="w-10 h-10" />
                 </Link>
-                <Link to="/perfil">
+                 <Link to="/perfil">
                     <img src={perfil} alt="" className="w-10 h-10"/>
                 </Link>
             </div>

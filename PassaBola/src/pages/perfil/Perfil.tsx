@@ -5,7 +5,7 @@ import video from "../../imgs/video.png";
 import bola from "../../imgs/bola.png";
 import perfil from "../../imgs/perfil.png";
 
-export default function Home() {
+export default function Perfil() {
     return (
     <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
         <header className="w-full shadow-md z-2">
