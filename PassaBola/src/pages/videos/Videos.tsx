@@ -31,8 +31,16 @@ export default function Videos() {
             <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
         </header>
 
-
-        {/*Conteúdo das página */}
+        <div className="flex justify-center">
+            <div className="gap-10">
+                <img src="" alt="" className="w-10 h-10"/>
+                <div className="bg-white w-70 h40 flex flex-col">
+                    <img src="" alt="" className="p-4 w-50 h-20"/>
+                    <p className="text-black"></p>
+                </div>
+            </div>
+        </div>
+        
 
         <footer className="fixed bottom-0 w-full bg-[#000000] z-2">
             <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
