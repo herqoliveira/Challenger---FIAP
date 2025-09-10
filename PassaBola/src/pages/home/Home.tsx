@@ -35,7 +35,7 @@ export default function Home() {
                 </div>
                 <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
             </header>
-
+            <div className="h-15"></div>
             <div className="flex flex-col items-center gap-4 p-4 bg-black min-h-screen w-full">
                 <div className="bg-green-700 text-white w-full rounded-lg shadow p-4">
                     <div className="flex justify-between items-center">

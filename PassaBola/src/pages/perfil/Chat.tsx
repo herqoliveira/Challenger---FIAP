@@ -1,20 +1,13 @@
 import { Link } from "react-router-dom";
 import logo from "../../imgs/logopassabola.png";
 import casa from "../../imgs/homevazia.png";
-import video from "../../imgs/video.png";
+import video from "../../imgs/videovazio.png";
 import bola from "../../imgs/bola.png";
-import perfil from "../../imgs/perfilvazio.png";
-
-import video1 from "../../imgs/video1.png";
-import video2 from "../../imgs/video2.jpg";
-import video3 from "../../imgs/video3.jpg";
-import video4 from "../../imgs/video4.jpeg";
-
-
+import perfil from "../../imgs/perfil.png";
 import jogadora1 from "../../imgs/jogadora1.png";
-import jogadora2 from "../../imgs/Jogadora2.png";
-import jogadora3 from "../../imgs/jogadora3.png";
-export default function Videos() {
+import olheiro from "../../imgs/olheiro.png";
+
+export default function ChatPv() {
     return (
     <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
         <header className="fixed top-0 w-full shadow-md z-2 bg-[#000000]">
@@ -41,7 +34,20 @@ export default function Videos() {
         </header>
         <div className="h-25"></div>
         
-        {/* Conteúdo da página*/}
+        <div className="justify-center flex">
+            <div className="bg-black rounded-lg w-100 h-120">
+                <div className="flex mt-2">
+                    <div className="bg-white w-60 h-30 rounded-lg ml-28 text-black p-2">Olá, tudo bem, vi seus vídeos e gostei bastante, gostaria de saber se você conhece o Varginha FC?</div>
+                    <img src={olheiro} alt="" className="w-10 h-10" />
+                </div>
+                <div className="flex mt-2">
+                    <img src={jogadora1} alt="" className="w-10 h-10" />
+                    <div className="bg-[#c0c0c0] w-60 h-17 rounded-lg p-2 text-black">Nossa, fico muito feliz em saber, conheço sim!!</div>
+                </div>
+                <div className="w-full h-0.5 bg-[#ec4d9d] mt-10"></div>
+            </div>  
+        </div>
+
 
         <div className="h-15"></div>
 

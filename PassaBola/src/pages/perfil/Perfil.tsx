@@ -8,6 +8,7 @@ import chat from "../../imgs/chat.png";
 import jogadora1 from "../../imgs/jogadora1.png";
 import video1 from "../../imgs/video1.png";
 import foto2 from "../../imgs/imagem2jogadora.webp";
+
 export default function Perfil() {
     return (
     <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
@@ -47,7 +48,10 @@ export default function Perfil() {
                     <li>• Tocantis</li>
                     <li>• Botafoguense 🔥</li>
                 </ol>
-                <img src={chat} alt="" className="w-18 h-18"/>
+                <Link to="/chatpv">
+                    <img src={chat} alt="" className="w-18 h-18"/>
+                </Link>
+                
             </div>
         </div>
 

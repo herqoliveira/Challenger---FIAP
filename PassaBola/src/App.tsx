@@ -3,6 +3,7 @@ import Home from "./pages/home/Home";
 import Jogos from "./pages/jogos/Jogos";
 import Videos from "./pages/videos/Videos";
 import Perfil from "./pages/perfil/Perfil";
+import ChatPv from "./pages/perfil/Chat";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path="/jogos" element={<Jogos />} />
         <Route path="/videos" element={<Videos />} />
         <Route path="/perfil" element={<Perfil />} />
+        <Route path="/chatpv" element={<ChatPv />} />
       </Routes>
     </Router>
   );
