@@ -8,7 +8,7 @@ import perfil from "../../imgs/perfil.png";
 export default function Home() {
     return (
     <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
-        <header className="w-full shadow-md z-2">
+        <header className="fixed top-0 w-full shadow-md z-2 bg-[#000000]">
             <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
 
                 <div className="w-12" />
@@ -30,10 +30,11 @@ export default function Home() {
             </div>
             <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
         </header>
-
+        <div className="h-25"></div>
 
         {/*Conteúdo das página */}
-
+        
+        <div className="h-15"></div>
         <footer className="fixed bottom-0 w-full bg-[#000000] z-2">
             <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
             <div className="flex gap-20 justify-center">

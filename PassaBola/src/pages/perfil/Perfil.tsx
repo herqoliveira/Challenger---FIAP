@@ -4,11 +4,14 @@ import casa from "../../imgs/home.png";
 import video from "../../imgs/video.png";
 import bola from "../../imgs/bola.png";
 import perfil from "../../imgs/perfil.png";
-
+import chat from "../../imgs/chat.png";
+import jogadora1 from "../../imgs/jogadora1.png";
+import video1 from "../../imgs/video1.png";
+import foto2 from "../../imgs/imagem2jogadora.webp";
 export default function Perfil() {
     return (
     <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
-        <header className="w-full shadow-md z-2">
+        <header className="fixed top-0 w-full shadow-md z-2 bg-[#000000]">
             <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
 
                 <div className="w-12" />
@@ -30,10 +33,54 @@ export default function Perfil() {
             </div>
             <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
         </header>
+        <div className="h-25"></div>
 
 
-        {/*Conteúdo das página */}
+        <div className="flex justify-center">
+            <div className="flex flex-col py-6">
+                <img src={jogadora1} alt="" className="w-35 h-35"/>
+                <h3 className="text-center font-bold">@anacarvalho17</h3>
+            </div>
+            <div className="flex flex-col px-10 py-10">
+                <ol>
+                    <li>• Lateral direita</li>
+                    <li>• Tocantis</li>
+                    <li>• Botafoguense 🔥</li>
+                </ol>
+                <img src={chat} alt="" className="w-18 h-18"/>
+            </div>
+        </div>
 
+        <div className="flex justify-center">
+            <div className="h-1 bg-gray-900 w-100 rounded-lg"></div>
+        </div>
+
+
+        <div className="flex justify-center flex-col items-center gap-4 py-5">
+            <div className="gap-10">
+                <div className="bg-white w-90 h-90 flex flex-col rounded-lg">
+                    <div className="flex gap-5 px-4 py-4">
+                        <img src={jogadora1} alt="" className="w-10 h-10"/>
+                        <p className="text-black py-1.5 font-bold">Ana Carvalho Oliveira</p>
+                    </div>
+                    <p className="text-black px-4">Olhem o gol que fiz ontem no final do Campeonato Tocantis Delas. Ganhamos e ganhei a medalha de melhor do time!!</p>
+                    <img src={video1} alt="" className="p-4 w-90 h-50 rounded-lg"/>
+                </div>
+            </div>
+            <div className="gap-10">
+                <div className="bg-white w-90 h-93 flex flex-col rounded-lg">
+                    <div className="flex gap-5 px-4 py-4">
+                        <img src={jogadora1} alt="" className="w-10 h-10"/>
+                        <p className="text-black py-1.5 font-bold">Ana Carvalho Oliveira</p>
+                    </div>
+                    <p className="text-black px-4">Hoje mais cedo tive a oportunidade de fazer um ensaio de fotos com meu amigo Abel, recomendo muito e estou muito contente com minhas fotos.</p>
+                    <img src={foto2} alt="" className="p-4 w-90 h-50 rounded-lg"/>
+                </div>
+            </div>
+        </div>
+
+
+        <div className="h-15"></div>
         <footer className="fixed bottom-0 w-full bg-[#000000] z-2">
             <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
             <div className="flex gap-20 justify-center">
