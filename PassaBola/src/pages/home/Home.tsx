@@ -1,15 +1,19 @@
 import { Link } from "react-router-dom";
+
+
 import logo from "../../imgs/logopassabola.png";
 import casa from "../../imgs/home.png";
-import video from "../../imgs/video.png";
+import video from "../../imgs/videovazio.png";
 import bola from "../../imgs/bola.png";
-import perfil from "../../imgs/perfil.png";
+import perfil from "../../imgs/perfilvazio.png";
+
+
 import site from "../../imgs/selecaobrasileira.png";
 
 export default function Home() {
     return (
         <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
-            <header className="w-full shadow-md z-2">
+            <header className="fixed top-0 w-full shadow-md z-2 bg-[#000000]">
                 <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
 
                     <div className="w-12" />

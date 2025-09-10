@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import logo from "../../imgs/logopassabola.png";
-import casa from "../../imgs/home.png";
+import casa from "../../imgs/homevazia.png";
 import video from "../../imgs/video.png";
 import bola from "../../imgs/bola.png";
-import perfil from "../../imgs/perfil.png";
+import perfil from "../../imgs/perfilvazio.png";
+
 import video1 from "../../imgs/video1.png";
 import video2 from "../../imgs/video2.jpg";
 import video3 from "../../imgs/video3.jpg";

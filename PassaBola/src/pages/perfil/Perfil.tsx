@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "../../imgs/logopassabola.png";
-import casa from "../../imgs/home.png";
-import video from "../../imgs/video.png";
+import casa from "../../imgs/homevazia.png";
+import video from "../../imgs/videovazio.png";
 import bola from "../../imgs/bola.png";
 import perfil from "../../imgs/perfil.png";
 import chat from "../../imgs/chat.png";
