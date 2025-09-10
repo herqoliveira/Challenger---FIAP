@@ -33,15 +33,25 @@ export default function Videos() {
             <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
         </header>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center flex-col items-center gap-4">
             <div className="gap-10">
-                <div className="flex gap-5">
-                    <img src={jogadora1} alt="" className="w-10 h-10"/>
-                    <p className="py-1.5">Ana Carvalho Oliveira</p>
-                </div>
-                <div className="bg-white w-90 h-75 flex flex-col rounded-lg">
-                    <img src={video1} alt="" className="p-4 w-90 h-50 rounded-lg"/>
+                <div className="bg-white w-90 h-90 flex flex-col rounded-lg">
+                    <div className="flex gap-5 px-4 py-4">
+                        <img src={jogadora1} alt="" className="w-10 h-10"/>
+                        <p className="text-black py-1.5 font-bold">Ana Carvalho Oliveira</p>
+                    </div>
                     <p className="text-black px-4">Olhem o gol que fiz ontem no final do Campeonato Tocantis Delas. Ganhamos e ganhei a medalha de melhor do time!!</p>
+                    <img src={video1} alt="" className="p-4 w-90 h-50 rounded-lg"/>
+                </div>
+            </div>
+            <div className="gap-10">
+                <div className="bg-white w-90 h-90 flex flex-col rounded-lg">
+                    <div className="flex gap-5 px-4 py-4">
+                        <img src={jogadora1} alt="" className="w-10 h-10"/>
+                        <p className="text-black py-1.5 font-bold">Ana Carvalho Oliveira</p>
+                    </div>
+                    <p className="text-black px-4">Olhem o gol que fiz ontem no final do Campeonato Tocantis Delas. Ganhamos e ganhei a medalha de melhor do time!!</p>
+                    <img src={video1} alt="" className="p-4 w-90 h-50 rounded-lg"/>
                 </div>
             </div>
         </div>
