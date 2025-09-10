@@ -77,10 +77,11 @@ export default function Perfil() {
                     <img src={foto2} alt="" className="p-4 w-90 h-50 rounded-lg"/>
                 </div>
             </div>
+            <h3>Carregando...</h3>
         </div>
 
 
-        <div className="h-15"></div>
+        <div className="h-10"></div>
         <footer className="fixed bottom-0 w-full bg-[#000000] z-2">
             <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
             <div className="flex gap-20 justify-center">
