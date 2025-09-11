@@ -15,19 +15,16 @@ export default function Home() {
         <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
             <header className="fixed top-0 w-full shadow-md z-2 bg-[#000000]">
                 <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-
                     <div className="w-12" />
-                    <Link to="/pesquisa">
-                        <div className="flex-grow max-w-md mx-6">
+                    <div className="flex-grow max-w-md mx-6">
+                        <Link to="/pesquisa">
                             <input
                                 type="text"
                                 placeholder="Pesquisar..."
                                 className="w-full px-4 py-2 rounded-lg bg-white text-black placeholder-gray-400"
                             />
-                        </div>
-                    </Link>
-                    
-
+                        </Link>
+                    </div>
                     <img
                         src={logo}
                         alt="Logo"
@@ -81,7 +78,7 @@ export default function Home() {
                     <Link to="/jogos">
                         <img src={bola} alt="Perfil" className="w-10 h-10" />
                     </Link>
-                    <Link to="/perfil">
+                    <Link to="/perfil3">
                         <img src={perfil} alt="" className="w-10 h-10" />
                     </Link>
                 </div>

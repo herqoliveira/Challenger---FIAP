@@ -7,7 +7,7 @@ import video from "../../imgs/videovazio.png";
 import bola from "../../imgs/bola.png";
 import perfil from "../../imgs/perfilvazio.png";
 import jogadora1 from "../../imgs/jogadora1.png";
-
+import jogadora2 from "../../imgs/Jogadora2.png";
 
 export default function Pesquisa() {
     return (
@@ -49,6 +49,12 @@ export default function Pesquisa() {
                                 <p className="font-bold mt-5 px-5">@anacarvalho17</p>
                             </div>
                         </Link>
+                        <Link to="/perfil2">
+                            <div className="bg-[#050505] w-full h-20 mt-4 p-1 flex flex-row">
+                                <img src={jogadora2} alt="" className="w-17 h-17"/>
+                                <p className="font-bold mt-5 px-5">@betsantos</p>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -69,7 +75,7 @@ export default function Pesquisa() {
                     <Link to="/jogos">
                         <img src={bola} alt="Perfil" className="w-10 h-10" />
                     </Link>
-                    <Link to="/perfil">
+                    <Link to="/perfil3">
                         <img src={perfil} alt="" className="w-10 h-10" />
                     </Link>
                 </div>

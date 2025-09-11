@@ -61,7 +61,7 @@ export default function ChatPv() {
                 <Link to="/jogos">
                     <img src={bola} alt="Perfil" className="w-10 h-10" />
                 </Link>
-                 <Link to="/perfil">
+                 <Link to="/perfil3">
                     <img src={perfil} alt="" className="w-10 h-10"/>
                 </Link>
             </div>
