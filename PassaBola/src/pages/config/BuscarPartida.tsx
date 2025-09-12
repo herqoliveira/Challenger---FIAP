@@ -9,51 +9,53 @@ import lupa from "../../imgs/lupa.png";
 
 
 interface CardPartidaProps {
-  dia: string;
-  titulo: string;
-  vagas: string;
-  local: string;
-  horario: string;
-  detalhes: string[];
+    dia: string;
+    titulo: string;
+    vagas: string;
+    local: string;
+    horario: string;
+    detalhes: string[];
 }
 
 
 function CardPartida({ dia, titulo, vagas, local, horario, detalhes }: CardPartidaProps) {
-  const [mostrarMais, setMostrarMais] = useState(false);
+    const [mostrarMais, setMostrarMais] = useState(false);
 
-  return (
-    <div className="flex flex-col w-90 bg-green-600 mt-3 rounded-lg p-3">
-      <p className="text-3xl text-center">{dia}</p>
+    return (
+        <div className="flex flex-col w-90 bg-green-600 mt-3 rounded-lg p-3">
+            <p className="text-3xl text-center">{dia}</p>
 
-      <div className="bg-green-700 w-full rounded-lg p-3 mt-2">
-        <ol className="space-y-1">
-          <li>⚽ {titulo}</li>
-          <li>👤 {vagas}</li>
-          <li>📍 {local}</li>
-          <li>🕝 {horario}</li>
-          <li
-            className="text-blue-200 cursor-pointer"
-            onClick={() => setMostrarMais(!mostrarMais)}
-          >
-            {mostrarMais ? "ver menos" : "saiba mais"}
-          </li>
-        </ol>
-      </div>
+            <div className="bg-green-700 w-full rounded-lg p-3 mt-2">
+                <ol className="space-y-1">
+                    <li>⚽ {titulo}</li>
+                    <li>👤 {vagas}</li>
+                    <li>📍 {local}</li>
+                    <li>🕝 {horario}</li>
+                    <li
+                        className="text-blue-200 cursor-pointer"
+                        onClick={() => setMostrarMais(!mostrarMais)}
+                    >
+                        {mostrarMais ? "ver menos" : "saiba mais"}
+                    </li>
+                </ol>
+            </div>
 
-      {mostrarMais && (
-        <div className="bg-green-800 w-full rounded-lg p-3 mt-2 text-sm">
-          <ul className="list-disc pl-5 space-y-1">
-            {detalhes.map((item: string, index: number) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-          <button className="mt-2 bg-green-500 text-black font-bold py-1 px-3 rounded">
-            PARTICIPAR
-          </button>
+            {mostrarMais && (
+                <div className="bg-green-800 w-full rounded-lg p-3 mt-2 text-sm">
+                    <ul className="list-disc pl-5 space-y-1">
+                        {detalhes.map((item: string, index: number) => (
+                            <li key={index}>{item}</li>
+                        ))}
+                    </ul>
+                    <Link to="">
+                        <button className="mt-2 bg-green-500 text-black font-bold py-1 px-3 rounded">
+                            PARTICIPAR
+                        </button>
+                    </Link>
+                </div>
+            )}
         </div>
-      )}
-    </div>
-  );
+    );
 }
 
 export default function BuscarPartida() {
@@ -134,7 +136,7 @@ export default function BuscarPartida() {
                             "Arbitragem local",
                         ]}
                     />
-                    <h3 className="text-center">Carregando...</h3>
+                    <h3 className="text-center py-1">Carregando...</h3>
                 </div>
             </div>
 
