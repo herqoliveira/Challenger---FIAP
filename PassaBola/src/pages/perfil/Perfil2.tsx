@@ -49,7 +49,7 @@ export default function Perfil2() {
                         <li>• Bragança</li>
                         <li>• Bragantina 🔴⚪</li>
                     </ol>
-                    <Link to="/chatpv">
+                    <Link to="/chatpv2">
                         <img src={chat} alt="" className="w-18 h-18" />
                     </Link>
 

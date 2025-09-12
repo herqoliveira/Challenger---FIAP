@@ -4,12 +4,12 @@ import casa from "../../imgs/homevazia.png";
 import video from "../../imgs/videovazio.png";
 import bola from "../../imgs/bola.png";
 import perfil from "../../imgs/perfil.png";
-import jogadora1 from "../../imgs/jogadora1.png";
-import jogadora3 from "../../imgs/jogadora3.png";
+import jogadora2 from "../../imgs/Jogadora2.png";
+import jogadora3 from "../../imgs/Jogadora3.png";
 import microfone from "../../imgs/microfone.png";
 import clip from "../../imgs/clip.png";
 
-export default function ChatPv() {
+export default function ChatPv2() {
     return (
     <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
         <header className="fixed top-0 w-full shadow-md z-2 bg-[#000000]">
@@ -45,7 +45,7 @@ export default function ChatPv() {
                     <img src={jogadora3} alt="" className="w-10 h-10" />
                 </div>
                 <div className="flex mt-2">
-                    <img src={jogadora1} alt="" className="w-10 h-10" />
+                    <img src={jogadora2} alt="" className="w-10 h-10" />
                     <div className="bg-[#c0c0c0] w-60 h-17 rounded-lg p-2 text-black">Nossa, fico muito feliz em saber, conheço sim!!</div>
                 </div>
                 <div className="w-full h-0.5 bg-[#ec4d9d] mt-55"></div>
