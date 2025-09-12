@@ -9,6 +9,8 @@ import ChatPv from "./pages/perfil/Chat";
 import ChatPv2 from "./pages/perfil/Chat2";
 import Pesquisa from "./pages/pesquisa/Pesquisa";
 import Config from "./pages/config/Configuracao";
+import Times from "./pages/config/Times";
+import BuscarPartida from "./pages/config/BuscarPartida";
 
 
 
@@ -27,6 +29,8 @@ function App() {
         <Route path="/perfil3" element={<Perfil3 />} />
         <Route path="/chatpv2" element={<ChatPv2 />} />
         <Route path="/config" element={<Config />} />
+        <Route path="/times" element={<Times />} />
+        <Route path="/buscarpartida" element={<BuscarPartida />} />
       </Routes>
     </Router>
   );
