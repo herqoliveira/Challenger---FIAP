@@ -27,11 +27,13 @@ export default function Pesquisa() {
                         </Link>
                     </div>
 
-                    <img
-                        src={logo}
-                        alt="Logo"
-                        className="h-12 w-12 object-contain"
-                    />
+                    <Link to="/config">
+                        <img
+                            src={logo}
+                            alt="Logo"
+                            className="h-12 w-12 object-contain"
+                        />
+                    </Link>
 
                 </div>
                 <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
@@ -39,7 +41,7 @@ export default function Pesquisa() {
             <div className="h-25"></div>
             
             <div className="justify-center flex">
-                <div className="flex bg-[#000000] rounded-lg w-100 h-80 p-4 border border-black">
+                <div className="flex bg-[#000000] rounded-lg w-90 h-80 p-4 border border-black">
                     <div className="flex flex-col w-full">
                         <div className="flex flex-row justify-between">
                             <p className="text-white mt-2">Últimas pesquisas</p>

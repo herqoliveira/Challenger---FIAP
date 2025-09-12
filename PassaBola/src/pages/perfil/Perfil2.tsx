@@ -26,11 +26,13 @@ export default function Perfil2() {
                         </Link>
                     </div>
 
-                    <img
-                        src={logo}
-                        alt="Logo"
-                        className="h-12 w-12 object-contain"
-                    />
+                    <Link to="/config">
+                        <img
+                            src={logo}
+                            alt="Logo"
+                            className="h-12 w-12 object-contain"
+                        />
+                    </Link>
 
                 </div>
                 <div className="w-full h-0.5 bg-[#ec4d9d]"></div>

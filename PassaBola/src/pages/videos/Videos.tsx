@@ -32,11 +32,13 @@ export default function Videos() {
                         </Link>
                     </div>
 
-                    <img
-                        src={logo}
-                        alt="Logo"
-                        className="h-12 w-12 object-contain"
-                    />
+                    <Link to="/config">
+                        <img
+                            src={logo}
+                            alt="Logo"
+                            className="h-12 w-12 object-contain"
+                        />
+                    </Link>
 
                 </div>
                 <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
@@ -93,7 +95,9 @@ export default function Videos() {
                     <Link to="/home">
                         <img src={casa} alt="" className="w-10 h-10" />
                     </Link>
-                    <img src={video} alt="" className="w-10 h-10" />
+                    <Link to="/videos">
+                        <img src={video} alt="" className="w-10 h-10" />
+                    </Link>
                     <Link to="/jogos">
                         <img src={bola} alt="Perfil" className="w-10 h-10" />
                     </Link>

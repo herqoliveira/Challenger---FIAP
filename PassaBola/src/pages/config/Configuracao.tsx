@@ -5,6 +5,12 @@ import video from "../../imgs/videovazio.png";
 import bola from "../../imgs/bola.png";
 import perfil from "../../imgs/perfilvazio.png";
 
+/* Ícones do conteúda da página*/
+import time from "../../imgs/team.png";
+import config from "../../imgs/config.png";
+import lupa from "../../imgs/lupa.png";
+import quadra from "../../imgs/quadra.png";
+
 export default function Config() {
     return (
     <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
@@ -35,17 +41,52 @@ export default function Config() {
         <div className="h-20"></div>
         
        
+        <div className="flex justify-center">
+            <div className="bg-black w-100 h-125 p-4 rounded-lg">
+
+                <div className="flex mt-1">
+                    <img src={time} alt="" className="w-8 h-8"/>
+                    <p className="py-1.5 ml-3">Meus times</p>
+                </div>
+
+                <div className="bg-[#0c0c0c] h-0.5 w-90 roundde-lg"></div>
+
+                <div className="flex mt-1">
+                    <img src={config} alt="" className="w-8 h-8"/>
+                    <p className="py-1.5 ml-3">Configurações</p>
+                </div>
+
+                <div className="bg-[#0c0c0c] h-0.5 w-90 roundde-lg"></div>
+
+                <div className="flex mt-1">
+                    <img src={lupa} alt="" className="w-8 h-8"/>
+                    <p className="py-1.5 ml-3">Buscar partidas</p>
+                </div>
+
+                <div className="bg-[#0c0c0c] h-0.5 w-90 roundde-lg"></div>
+
+                <div className="flex mt-1">
+                    <img src={quadra} alt="" className="w-8 h-8"/>
+                    <p className="py-1.5 ml-3">Quadras parceiras</p>
+                </div>
+                
+            </div>
+        </div>
 
 
-        <div className="h-15"></div>
 
+
+
+        <div className="h-10"></div>
         <footer className="fixed bottom-0 w-full bg-[#000000] z-2">
             <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
             <div className="flex gap-20 justify-center">
                 <Link to="/home">
                     <img src={casa} alt="" className="w-10 h-10"/>
                 </Link>
-                <img src={video} alt="" className="w-10 h-10"/>
+                <Link to="/videos">
+                        <img src={video} alt="" className="w-10 h-10" />
+                </Link>
                 <Link to="/jogos">
                     <img src={bola} alt="Perfil" className="w-10 h-10" />
                 </Link>

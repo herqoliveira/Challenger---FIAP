@@ -27,11 +27,13 @@ export default function ChatPv() {
                     </Link>
                 </div>
 
-                <img
-                    src={logo}
-                    alt="Logo"
-                    className="h-12 w-12 object-contain"
-                />
+                <Link to="/config">
+                    <img
+                        src={logo}
+                        alt="Logo"
+                        className="h-12 w-12 object-contain"
+                    />
+                </Link>
 
             </div>
             <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
@@ -39,7 +41,7 @@ export default function ChatPv() {
         <div className="h-20"></div>
         
         <div className="justify-center flex">
-            <div className="bg-black rounded-lg w-100 h-120">
+            <div className="bg-black rounded-lg w-90 h-120">
                 <div className="flex mt-2">
                     <div className="bg-white w-60 h-30 rounded-lg ml-28 text-black p-2">Olá, tudo bem, vi seus vídeos e gostei bastante, gostaria de saber se você conhece o Varginha FC?</div>
                     <img src={jogadora3} alt="" className="w-10 h-10" />
@@ -70,7 +72,9 @@ export default function ChatPv() {
                 <Link to="/home">
                     <img src={casa} alt="" className="w-10 h-10"/>
                 </Link>
-                <img src={video} alt="" className="w-10 h-10"/>
+                <Link to="/videos">
+                        <img src={video} alt="" className="w-10 h-10" />
+                    </Link>
                 <Link to="/jogos">
                     <img src={bola} alt="Perfil" className="w-10 h-10" />
                 </Link>
