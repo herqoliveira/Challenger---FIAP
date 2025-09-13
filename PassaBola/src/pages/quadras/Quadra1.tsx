@@ -4,9 +4,7 @@ import casa from "../../imgs/home.png";
 import video from "../../imgs/videovazio.png";
 import bola from "../../imgs/bola.png";
 import perfil from "../../imgs/perfilvazio.png";
-import time from "../../imgs/team.png";
 
-import jogadora1 from "../../imgs/jogadora1.png";
 
 
 export default function Times() {
