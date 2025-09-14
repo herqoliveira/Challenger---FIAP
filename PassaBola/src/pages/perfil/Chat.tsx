@@ -41,7 +41,7 @@ export default function ChatPv() {
             <div className="h-20"></div>
 
             <div className="justify-center flex">
-                <div className="bg-black rounded-lg w-90 h-120 lg:h-135">
+                <div className="bg-black rounded-lg w-90 h-135">
                     <div className="flex mt-2">
                         <div className="bg-white w-60 h-30 rounded-lg ml-28 text-black p-2">Olá, tudo bem, vi seus vídeos e gostei bastante, gostaria de saber se você conhece o Varginha FC?</div>
                         <img src={jogadora3} alt="" className="w-10 h-10" />
@@ -50,7 +50,7 @@ export default function ChatPv() {
                         <img src={jogadora1} alt="" className="w-10 h-10" />
                         <div className="bg-[#c0c0c0] w-60 h-17 rounded-lg p-2 text-black">Nossa, fico muito feliz em saber, conheço sim!!</div>
                     </div>
-                    <div className="w-full h-0.5 bg-[#ec4d9d] mt-55 lg:mt-70"></div>
+                    <div className="w-full h-0.5 bg-[#ec4d9d] mt-70"></div>
                     <div className="justify-center flex mt-1 gap-2">
                         <img src={microfone} alt="" className="h-8 w-8 mt-1" />
                         <input
@@ -66,23 +66,7 @@ export default function ChatPv() {
 
             <div className="h-15 lg:hidden"></div>
 
-            <footer className="fixed bottom-0 w-full bg-[#000000] z-2 lg:hidden">
-                <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
-                <div className="flex gap-20 justify-center">
-                    <Link to="/home">
-                        <img src={casa} alt="" className="w-10 h-10" />
-                    </Link>
-                    <Link to="/videos">
-                        <img src={video} alt="" className="w-10 h-10" />
-                    </Link>
-                    <Link to="/jogos">
-                        <img src={bola} alt="Perfil" className="w-10 h-10" />
-                    </Link>
-                    <Link to="/perfil3">
-                        <img src={perfil} alt="" className="w-10 h-10" />
-                    </Link>
-                </div>
-            </footer>
+           
             <aside className="fixed z-1 w-35 h-full bg-black flex-col items-center py-4 hidden lg:flex">
                 <div className="mt-40">
                     <Link to="/home">
