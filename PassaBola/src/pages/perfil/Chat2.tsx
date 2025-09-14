@@ -8,14 +8,20 @@ import jogadora2 from "../../imgs/Jogadora2.png";
 import jogadora3 from "../../imgs/jogadora3.png";
 import microfone from "../../imgs/microfone.png";
 import clip from "../../imgs/clip.png";
-
+import voltar from "../../imgs/voltar.png";
 export default function ChatPv2() {
     return (
         <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
             <header className="fixed top-0 w-full shadow-md z-2 bg-[#000000]">
                 <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
 
-                    <div className="w-12" />
+                    <Link to="/perfil2">
+                        <img
+                            src={voltar}
+                            alt="Logo"
+                            className="h-8 w-8 object-contain"
+                        />
+                    </Link>
 
                     <div className="flex-grow max-w-md mx-6">
                         <Link to="/pesquisa">
