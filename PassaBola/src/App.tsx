@@ -11,6 +11,7 @@ import Pesquisa from "./pages/pesquisa/Pesquisa";
 import Config from "./pages/config/Configuracao";
 import Times from "./pages/config/Times";
 import BuscarPartida from "./pages/config/BuscarPartida";
+import Quadra1 from "./pages/quadras/Quadra1";
 
 
 
@@ -31,6 +32,7 @@ function App() {
         <Route path="/config" element={<Config />} />
         <Route path="/times" element={<Times />} />
         <Route path="/buscarpartida" element={<BuscarPartida />} />
+        <Route path="/quadra1" element={<Quadra1 />} />
       </Routes>
     </Router>
   );

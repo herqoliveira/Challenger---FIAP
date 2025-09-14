@@ -47,7 +47,7 @@ function CardPartida({ dia, titulo, vagas, local, horario, detalhes }: CardParti
                             <li key={index}>{item}</li>
                         ))}
                     </ul>
-                    <Link to="">
+                    <Link to="/quadra1">
                         <button className="mt-2 bg-green-500 text-black font-bold py-1 px-3 rounded">
                             PARTICIPAR
                         </button>
