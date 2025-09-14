@@ -5,7 +5,7 @@ import video from "../../imgs/videovazio.png";
 import bola from "../../imgs/bola.png";
 import perfil from "../../imgs/perfil.png";
 import jogadora2 from "../../imgs/Jogadora2.png";
-import jogadora3 from "../../imgs/Jogadora3.png";
+import jogadora3 from "../../imgs/jogadora3.png";
 import microfone from "../../imgs/microfone.png";
 import clip from "../../imgs/clip.png";
 
