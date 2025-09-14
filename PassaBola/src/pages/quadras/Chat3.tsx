@@ -10,7 +10,7 @@ import jogadora7 from "../../imgs/jogadora7.png";
 import microfone from "../../imgs/microfone.png";
 import clip from "../../imgs/clip.png";
 
-
+import voltar from "../../imgs/voltar.png";
 
 export default function Chat3() {
     return (
@@ -18,7 +18,13 @@ export default function Chat3() {
         <header className="fixed top-0 w-full shadow-md z-2 bg-[#000000]">
             <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
 
-                <div className="w-12" />
+                <Link to="/quadra1">
+                    <img
+                        src={voltar}
+                        alt="Logo"
+                        className="h-8 w-8 object-contain"
+                    />
+                </Link>
 
                 <div className="flex-grow max-w-md mx-6">
                     <Link to="/pesquisa">
@@ -46,16 +52,16 @@ export default function Chat3() {
         <div className="justify-center flex">
             <div className="bg-black rounded-lg w-90 h-120">
                 <div className="flex mt-2">
-                    <div className="bg-white w-60 h-17 rounded-lg ml-28 text-black p-2">Olá, posso jogar na ponta direita? Me destaco mais lá</div>
-                    <img src={jogadora3} alt="" className="w-10 h-10" />
+                    <div className="bg-white w-60 h-20 rounded-lg ml-28 text-black p-2 mr-1">Olá, posso jogar na ponta direita? Me destaco mais lá</div>
+                    <img src={jogadora3} alt="" className="w-10 h-10 mr-1" />
                 </div>
                 <div className="flex mt-2">
-                    <img src={jogadora7} alt="" className="w-10 h-10" />
-                    <div className="bg-[#c0c0c0] w-60 h-10 rounded-lg p-2 text-black">Sinta-se a vontade.</div>
+                    <img src={jogadora7} alt="" className="w-10 h-10 ml-1" />
+                    <div className="bg-[#c0c0c0] w-60 h-10 rounded-lg p-2 text-black ml-1">Sinta-se a vontade.</div>
                 </div>
                 <div className="flex mt-2">
-                    <img src={jogadora1} alt="" className="w-10 h-10" />
-                    <div className="bg-[#9b9b9b] w-60 h-17 rounded-lg p-2 text-black">Alguém sabe como vai funcionar o pagamento?</div>
+                    <img src={jogadora1} alt="" className="w-10 h-10 ml-1" />
+                    <div className="bg-[#9b9b9b] w-60 h-17 rounded-lg p-2 text-black ml-1">Alguém sabe como vai funcionar o pagamento?</div>
                 </div>
                 <div className="w-full h-0.5 bg-[#ec4d9d] mt-55"></div>
                 <div className="justify-center flex mt-1 gap-2">

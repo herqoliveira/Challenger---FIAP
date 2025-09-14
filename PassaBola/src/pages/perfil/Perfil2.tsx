@@ -7,6 +7,7 @@ import perfil from "../../imgs/perfil.png";
 import chat from "../../imgs/chat.png";
 import jogadora2 from "../../imgs/Jogadora2.png";
 import video1 from "../../imgs/video5.png";
+import voltar from "../../imgs/voltar.png";
 
 export default function Perfil2() {
     return (
@@ -14,7 +15,13 @@ export default function Perfil2() {
             <header className="fixed top-0 w-full shadow-md z-2 bg-[#000000]">
                 <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
 
-                    <div className="w-12" />
+                    <Link to="/pesquisa">
+                        <img
+                            src={voltar}
+                            alt="Logo"
+                            className="h-8 w-8 object-contain"
+                        />
+                    </Link>
 
                     <div className="flex-grow max-w-md mx-6">
                         <Link to="/pesquisa">

@@ -6,7 +6,7 @@ import video from "../../imgs/videovazio.png";
 import bola from "../../imgs/bola.png";
 import perfil from "../../imgs/perfilvazio.png";
 import lupa from "../../imgs/lupa.png";
-
+import voltar from "../../imgs/voltar.png";
 
 interface CardPartidaProps {
     dia: string;
@@ -64,7 +64,13 @@ export default function BuscarPartida() {
 
             <header className="fixed top-0 w-full shadow-md z-2 bg-[#000000]">
                 <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-                    <div className="w-12" />
+                    <Link to="/config">
+                        <img
+                            src={voltar}
+                            alt="Logo"
+                            className="h-8 w-8 object-contain"
+                        />
+                    </Link>
                     <div className="flex-grow max-w-md mx-6">
                         <Link to="/pesquisa">
                             <input

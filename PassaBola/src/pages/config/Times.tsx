@@ -10,13 +10,20 @@ import jogadora3 from "../../imgs/jogadora3.png";
 import jogadora4 from "../../imgs/jogadora4.png";
 import jogadora5 from "../../imgs/jogadora5.png";
 
+import voltar from "../../imgs/voltar.png";
 export default function Times() {
     return (
     <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
         <header className="fixed top-0 w-full shadow-md z-2 bg-[#000000]">
             <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
 
-                <div className="w-12" />
+                <Link to="/config">
+                    <img
+                        src={voltar}
+                        alt="Logo"
+                        className="h-8 w-8 object-contain"
+                    />
+                </Link>
 
                 <div className="flex-grow max-w-md mx-6">
                     <Link to="/pesquisa">
