@@ -12,6 +12,7 @@ import Config from "./pages/config/Configuracao";
 import Times from "./pages/config/Times";
 import BuscarPartida from "./pages/config/BuscarPartida";
 import Quadra1 from "./pages/quadras/Quadra1";
+import Chat3 from "./pages/quadras/Chat3";
 
 
 
@@ -33,6 +34,7 @@ function App() {
         <Route path="/times" element={<Times />} />
         <Route path="/buscarpartida" element={<BuscarPartida />} />
         <Route path="/quadra1" element={<Quadra1 />} />
+        <Route path="/chat3" element={<Chat3 />} />
       </Routes>
     </Router>
   );
