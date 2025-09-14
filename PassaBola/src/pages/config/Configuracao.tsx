@@ -10,6 +10,7 @@ import time from "../../imgs/team.png";
 import config from "../../imgs/config.png";
 import lupa from "../../imgs/lupa.png";
 import quadra from "../../imgs/quadra.png";
+import loja from "../../imgs/loja.png";
 
 export default function Config() {
     return (
@@ -73,6 +74,13 @@ export default function Config() {
                 <div className="flex mt-1">
                     <img src={quadra} alt="" className="w-8 h-8"/>
                     <p className="py-1.5 ml-3">Quadras parceiras</p>
+                </div>
+
+                <div className="bg-[#0c0c0c] h-0.5 w-90 roundde-lg"></div>
+
+                <div className="flex mt-1">
+                    <img src={loja} alt="" className="w-8 h-8"/>
+                    <p className="py-1.5 ml-3">Loja Passa Bola</p>
                 </div>
 
             </div>
