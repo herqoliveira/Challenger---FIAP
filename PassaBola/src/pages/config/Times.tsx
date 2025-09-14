@@ -77,7 +77,7 @@ export default function Times() {
                                 </div>
                                 <div className="flex mt-2">
                                     <img src={jogadora3} alt="" className="w-7 h-7" />
-                                    <p className="text-black font-bold ml-1">@luisa._ |</p>
+                                    <p className="text-black font-bold ml-1">@carolfaixa10 |</p>
                                     <p className="bg-red-600 rounded-lg ml-1 text-black w-7 text-center">PD</p>
                                     <p className="bg-green-600 rounded-lg ml-1 text-black w-8 text-center">MC</p>
                                 </div>
