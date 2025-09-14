@@ -6,8 +6,9 @@ import bola from "../../imgs/bola.png";
 import perfil from "../../imgs/perfilvazio.png";
 import time from "../../imgs/team.png";
 
-import jogadora1 from "../../imgs/jogadora1.png";
-
+import jogadora3 from "../../imgs/jogadora3.png";
+import jogadora4 from "../../imgs/jogadora4.png";
+import jogadora5 from "../../imgs/jogadora5.png";
 
 export default function Times() {
     return (
@@ -63,19 +64,19 @@ export default function Times() {
                         </div>
                         <div className="p-4">
                             <div className="flex">
-                                <img src={jogadora1} alt="" className="w-7 h-7"/>
-                                <p className="text-black font-bold ml-1">@roberta01 |</p>
+                                <img src={jogadora5} alt="" className="w-7 h-7"/>
+                                <p className="text-black font-bold ml-1">@alexavier |</p>
                                 <p className="bg-blue-600 rounded-lg ml-1 text-black w-9 text-center"> GOL</p>
                             </div>
                             <div className="flex mt-2">
-                                <img src={jogadora1} alt="" className="w-7 h-7"/>
+                                <img src={jogadora3} alt="" className="w-7 h-7"/>
                                 <p className="text-black font-bold ml-1">@luisa._ |</p>
                                 <p className="bg-red-600 rounded-lg ml-1 text-black w-7 text-center">PD</p>
                                 <p className="bg-green-600 rounded-lg ml-1 text-black w-8 text-center">MC</p>
                             </div>
                             <div className="flex mt-2">
-                                <img src={jogadora1} alt="" className="w-7 h-7"/>
-                                <p className="text-black font-bold ml-1">@aninhaaa |</p>
+                                <img src={jogadora4} alt="" className="w-7 h-7"/>
+                                <p className="text-black font-bold ml-1">@luanamaluf |</p>
                                 <p className="bg-[#fffb00] rounded-lg ml-1 text-black w-7 text-center"> LE</p>
                             </div>
                             <div className=" flex justify-center">
