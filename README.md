@@ -15,7 +15,8 @@ Aplicação web desenvolvida como parte de um projeto de **storytelling e tecnol
 🔗 **Acesse aqui:** [Passa A Bola](http://challenger-fiap-v8zj.vercel.app) 
 **Login de acesso:** 
 --- 
-| Email: carolzinha1991@gmail.com 
+| Email: carolzinha1991@gmail.com
+
 | Senha: Carol1234
 
 ---
