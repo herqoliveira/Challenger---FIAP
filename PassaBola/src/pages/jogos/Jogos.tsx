@@ -157,11 +157,7 @@ export default function Jogos() {
                     <h1 className="text-white text-3xl py-4.5">0</h1>
                     <img src={saopaulo} alt="" className="w-20 h-20" />
                 </div>
-
-
-                <div className="bg-gray-800 w-95 h-25 rounded-lg flex items-center justify-center">
-                    <p className="text-white">Outra partida</p>
-                </div>
+                <h3 className="lg:mb-4">Carregando...</h3>
             </div>
 
 

@@ -50,7 +50,7 @@ export default function Times() {
 
 
             <div className="flex justify-center">
-                <div className="bg-black w-100 h-125 p-4 rounded-lg">
+                <div className="bg-black w-100 h-125 p-4 rounded-lg lg:w-150">
                     <Link to="/times">
                         <div className="flex mt-1">
                             <img src={time} alt="" className="w-8 h-8" />
@@ -58,34 +58,38 @@ export default function Times() {
                         </div>
                     </Link>
 
-                    <div className="bg-[#0c0c0c] h-0.5 w-90 roundde-lg"></div>
+                    <div className="bg-[#0c0c0c] h-0.5 w-90 rounded-lg lg:w-140"></div>
 
                     <div className=" flex justify-center">
                         <p className="text-white text-center mt-3 bg-[#036800] w-40 rounded-lg hover:bg-[#035000]">Criar time</p>
                     </div>
 
                     <div className="flex justify-center">
-                        <div className="bg-white w-70 h-50 mt-5 rounded-lg">
+                        <div className="bg-white w-70 h-50 mt-5 rounded-lg lg:w-140 lg:h-55">
                             <div className="rounded-tr-lg rounded-tl-lg bg-green-600">
                                 <p className="text-center items-center">Time do Trabalho</p>
                             </div>
                             <div className="p-4">
                                 <div className="flex">
-                                    <img src={jogadora5} alt="" className="w-7 h-7" />
-                                    <p className="text-black font-bold ml-1">@alexavier |</p>
+                                    <img src={jogadora5} alt="" className="w-7 h-7 lg:w-8 lg:h-8" />
+                                    <p className="text-black font-bold ml-1 lg:text-lg">@alexavier |</p>
                                     <p className="bg-blue-600 rounded-lg ml-1 text-black w-9 text-center"> GOL</p>
                                 </div>
+                                <div className="h-0.5 w-60 mt-1 justify-center flex bg-[#f1f1f1] lg:w-130"></div>
                                 <div className="flex mt-2">
-                                    <img src={jogadora3} alt="" className="w-7 h-7" />
-                                    <p className="text-black font-bold ml-1">@carolfaixa10 |</p>
+                                    <img src={jogadora3} alt="" className="w-7 h-7 lg:w-8 lg:h-8" />
+                                    <p className="text-black font-bold ml-1 lg:text-lg">@carolfaixa10 |</p>
                                     <p className="bg-red-600 rounded-lg ml-1 text-black w-7 text-center">PD</p>
                                     <p className="bg-green-600 rounded-lg ml-1 text-black w-8 text-center">MC</p>
                                 </div>
+                                <div className="h-0.5 w-60 mt-1 justify-center flex bg-[#f1f1f1] lg:w-130"></div>
                                 <div className="flex mt-2">
-                                    <img src={jogadora4} alt="" className="w-7 h-7" />
-                                    <p className="text-black font-bold ml-1">@luanamaluf |</p>
+                                    <img src={jogadora4} alt="" className="w-7 h-7 lg:w-8 lg:h-8" />
+                                    <p className="text-black font-bold ml-1 lg:text-lg">@luanamaluf |</p>
                                     <p className="bg-[#fffb00] rounded-lg ml-1 text-black w-7 text-center"> LE</p>
                                 </div>
+                                <div className="h-0.5 w-60 mt-1 justify-center flex bg-[#f1f1f1] lg:w-130"></div>
+
                                 <div className=" flex justify-center">
                                     <p className="text-black text-center mt-3 bg-[#dfdfdf] w-40 rounded-lg hover:bg-[#bbbbbb]">Adicionar jogadora</p>
                                 </div>
