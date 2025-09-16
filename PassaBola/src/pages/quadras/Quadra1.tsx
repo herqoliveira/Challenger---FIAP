@@ -129,7 +129,7 @@ export default function Quadra1() {
                     </div>
                     <div>
                         <div className="justify-center flex mt-5 lg:mt-0">
-                            <div className="bg-white w-88 h-40 rounded-lg">
+                            <div className="bg-white w-88 h-43 rounded-lg">
                                 <p className="text-black text-center font-bold">Banco de reservas</p>
                                 <p className="text-black ml-3 font-bold">Lista de reservas:</p>
                                 <div className="h-0.5 w-77 justify-center flex bg-[#cecece] ml-3"></div>
@@ -139,7 +139,12 @@ export default function Quadra1() {
                                     <li>Andressa Guastaferro</li>
                                     <div className="h-0.5 w-75 justify-center flex bg-[#f1f1f1]"></div>
                                     <li>Fernanda Julião</li>
+                                    <div className="h-0.5 w-75 justify-center flex bg-[#f1f1f1]"></div>
                                 </ul>
+                                <div className="flex justify-center">
+                                    <p className="mt-2 text-black bg-[#dbdbdb] hover:bg-[#c5c5c5] w-27 rounded-lg text-center">Ir para banco</p>
+                                </div>
+                                
                             </div>
                         </div>
                         <div className=" justify-center flex mt-5">
