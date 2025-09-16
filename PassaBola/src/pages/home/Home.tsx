@@ -42,8 +42,9 @@ export default function Home() {
 
 
             <div className="flex justify-center">
-                <div className="flex flex-col gap-4 p-4 bg-black h-282 w-98">
-                    <div className="bg-green-700 text-white w-90 rounded-lg shadow p-4">
+                <div className="flex flex-col gap-4 p-4 bg-black h-282 w-98 lg:w-150">
+
+                    <div className="bg-green-700 text-white w-90 rounded-lg shadow p-4 lg:w-140">
                         <div className="flex justify-between items-center">
                             <p className="font-bold text-center">SANTOS 0 X 3 PALMEIRAS</p>
                         </div>
@@ -54,11 +55,11 @@ export default function Home() {
 
 
 
-                    <div className="bg-white w-90 flexjustify-center rounded-lg">
+                    <div className="bg-white w-90 justify-center rounded-lg lg:w-140 cover lg:h-90">
                         <img
                             src={site}
                             alt="Brasil encara a Espanha nas quartas"
-                            className="w-85 h-40 object-cover ml-2.5 mt-2 rounded-lg"
+                            className="w-85 h-40 object-cover ml-2.5 mt-2 rounded-lg lg:w-135 lg:h-55"
                         />
                         <div className="p-3">
                             <p className="text-black text-sm">
@@ -70,11 +71,11 @@ export default function Home() {
 
 
 
-                    <div className="bg-white w-90 flexjustify-center rounded-lg">
+                    <div className="bg-white w-90 flexjustify-center rounded-lg lg:w-140 lg:h-80">
                         <img
                             src={noticia2}
                             alt="Brasil encara a Espanha nas quartas"
-                            className="w-85 h-40 object-cover ml-2.5 mt-2 rounded-lg"
+                            className="w-85 h-40 object-cover ml-2.5 mt-2 rounded-lg lg:w-135"
                         />
                         <div className="p-3">
                             <p className="text-black text-sm">
@@ -84,7 +85,7 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className="bg-green-700 text-white w-90 rounded-lg shadow p-4">
+                    <div className="bg-green-700 text-white w-90 rounded-lg shadow p-4 lg:w-140">
                         <div className="flex justify-between items-center">
                             <p className="font-bold text-center">VASCO 1 X 3 FERROVIÁRIA</p>
                         </div>
@@ -94,11 +95,11 @@ export default function Home() {
                     </div>
 
 
-                    <div className="bg-white w-90 flexjustify-center rounded-lg">
+                    <div className="bg-white w-90 flexjustify-center rounded-lg lg:w-140 lg:h-80">
                         <img
                             src={noticia3}
                             alt="Brasil encara a Espanha nas quartas"
-                            className="w-85 h-40 object-cover ml-2.5 mt-2 rounded-lg"
+                            className="w-85 h-40 object-cover ml-2.5 mt-2 rounded-lg lg:w-135"
                         />
                         <div className="p-3">
                             <p className="text-black text-sm">
