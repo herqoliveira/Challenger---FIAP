@@ -158,7 +158,7 @@ main()
 1. Clone o repositório:  
 ```bash
 git clone https://github.com/herqoliveira/Challenger---FIAP
-cd Challenger---FIAP
+cd PassaBola/
 ```
 
 2. Instale as dependências:  
