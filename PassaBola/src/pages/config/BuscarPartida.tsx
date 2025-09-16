@@ -34,10 +34,10 @@ function CardPartida({ dia, titulo, vagas, local, horario, detalhes }: CardParti
   const coordenadas = localizacoes[local as keyof typeof localizacoes] || { lat: 0, lng: 0 };
 
   return (
-    <div className="flex flex-col w-90 bg-green-600 mt-3 rounded-lg p-3">
+    <div className="flex flex-col w-82 bg-green-600 mt-3 rounded-lg p-3 lg:w-140">
       <p className="text-3xl text-center">{dia}</p>
 
-      <div className="bg-green-700 w-full rounded-lg p-3 mt-2">
+      <div className="bg-green-700 w-full rounded-lg p-3 mt-2 lg:w-133">
         <ol className="space-y-1">
           <li>⚽ {titulo}</li>
           <li>👤 {vagas}</li>
@@ -104,7 +104,7 @@ export default function BuscarPartida() {
       <div className="h-20"></div>
 
       <div className="flex justify-center">
-        <div className="bg-black w-100 p-4 rounded-lg">
+        <div className="bg-black w-90 p-4 rounded-lg lg:w-150">
           <Link to="/buscarpartida">
             <div className="flex mt-1">
               <img src={lupa} alt="" className="w-8 h-8" />
@@ -112,7 +112,7 @@ export default function BuscarPartida() {
             </div>
           </Link>
 
-          <div className="bg-[#0c0c0c] h-0.5 w-90 rounded-lg my-3"></div>
+          <div className="bg-[#0c0c0c] h-0.5 w-82 rounded-lg my-3 lg:w-140"></div>
 
           <CardPartida
             dia="Dia 14/06"
