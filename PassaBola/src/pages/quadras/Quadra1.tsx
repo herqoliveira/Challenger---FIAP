@@ -53,48 +53,50 @@ export default function Quadra1() {
             <div className="h-20"></div>
 
             <div className="flex justify-center">
-                <div className="bg-black w-100 h-180 p-4 rounded-lg">
+
+                <div className="bg-black w-90 p-4 rounded-lg lg:w-auto lg:flex lg:gap-8">
+
                     <div className="flex justify-center">
-                        <div className="grid grid-cols-5 grid-rows-10 w-88 h-110 bg-cover" style={{ backgroundImage: `url(${quadra1})` }}>
+                        <div className="grid grid-cols-5 grid-rows-10 w-92 h-103 lg:h-115 bg-cover" style={{ backgroundImage: `url(${quadra1})` }}>
 
                             <div className="col-start-3 flex items-center justify-center">
                                 <div className="w-8 h-8 rounded-fullflex items-center justify-center "><img src={jogadora8} alt="" /></div>
                             </div>
                             <div className="row-start-2 flex items-center justify-center">
-                                <div className="w-8 h-8 rounded-full bg-red-800 flex items-center justify-center text-white text-xs">+</div>
+                                <div className="w-8 h-8 rounded-full bg-red-700 hover:bg-red-800 flex items-center justify-center text-white text-xs">+</div>
                             </div>
                             <div className="row-start-2 flex items-center justify-center">
-                                <div className="w-8 h-8 rounded-full bg-red-800 flex items-center justify-center text-white text-xs">+</div>
+                                <div className="w-8 h-8 rounded-full bg-red-700 hover:bg-red-800 flex items-center justify-center text-white text-xs">+</div>
                             </div>
                             <div className="row-start-2 col-start-4 flex items-center justify-center">
-                                <div className="w-8 h-8 rounded-full bg-red-800 flex items-center justify-center text-white text-xs">+</div>
+                                <div className="w-8 h-8 rounded-full bg-red-700 hover:bg-red-800 flex items-center justify-center text-white text-xs">+</div>
                             </div>
                             <div className="row-start-2 col-start-5 flex items-center justify-center">
                                 <div className="w-8 h-8 rounded-full flex items-center justify-center "><img src={jogadora1} alt="" /></div>
                             </div>
                             <div className="row-start-3 col-start-3 flex items-center justify-center">
-                                <div className="w-8 h-8 rounded-full bg-red-800 flex items-center justify-center text-white text-xs">+</div>
+                                <div className="w-8 h-8 rounded-full bg-red-700 hover:bg-red-800 flex items-center justify-center text-white text-xs">+</div>
                             </div>
                             <div className="row-start-4 col-start-2 flex items-center justify-center">
-                                <div className="w-8 h-8 rounded-full bg-red-800 flex items-center justify-center text-white text-xs">+</div>
+                                <div className="w-8 h-8 rounded-full bg-red-700 hover:bg-red-800 flex items-center justify-center text-white text-xs">+</div>
                             </div>
                             <div className="row-start-4 col-start-4 flex items-center justify-center">
-                                <div className="w-8 h-8 rounded-full bg-red-800 flex items-center justify-center text-white text-xs">+</div>
+                                <div className="w-8 h-8 rounded-full bg-red-700 hover:bg-red-800 flex items-center justify-center text-white text-xs">+</div>
                             </div>
                             <div className="row-start-5 col-start-1 flex items-center justify-center">
                                 <div className="w-8 h-8 rounded-full flex items-center justify-center "><img src={jogadora6} alt="" /></div>
                             </div>
                             <div className="row-start-5 col-start-3 flex items-center justify-center">
-                                <div className="w-8 h-8 rounded-full bg-red-800 flex items-center justify-center text-white text-xs">+</div>
+                                <div className="w-8 h-8 rounded-full bg-red-700 hover:bg-red-800 flex items-center justify-center text-white text-xs">+</div>
                             </div>
                             <div className="row-start-5 col-start-5 flex items-center justify-center">
-                                <div className="w-8 h-8 rounded-full bg-red-800 flex items-center justify-center text-white text-xs">+</div>
+                                <div className="w-8 h-8 rounded-full bg-red-700 hover:bg-red-800 flex items-center justify-center text-white text-xs">+</div>
                             </div>
                             <div className="row-start-6 col-start-1 flex items-center justify-center">
-                                <div className="w-8 h-8 rounded-full bg-purple-800 flex items-center justify-center text-white text-xs">+</div>
+                                <div className="w-8 h-8 rounded-full bg-purple-800 hover:bg-purple-900 flex items-center justify-center text-white text-xs">+</div>
                             </div>
                             <div className="row-start-6 col-start-3 flex items-center justify-center">
-                                <div className="w-8 h-8 rounded-full bg-purple-800 flex items-center justify-center text-white text-xs">+</div>
+                                <div className="w-8 h-8 rounded-full bg-purple-800 hover:bg-purple-900 flex items-center justify-center text-white text-xs">+</div>
                             </div>
                             <div className="row-start-6 col-start-5 flex items-center justify-center">
                                 <div className="w-8 h-8 rounded-full flex items-center justify-center"><img src={jogadora2} alt="" /></div>
@@ -103,59 +105,51 @@ export default function Quadra1() {
                                 <div className="w-8 h-8 rounded-full flex items-center justify-center "><img src={jogadora7} alt="" /></div>
                             </div>
                             <div className="row-start-7 col-start-4 flex items-center justify-center">
-                                <div className="w-8 h-8 rounded-full bg-purple-800 flex items-center justify-center text-white text-xs">+</div>
+                                <div className="w-8 h-8 rounded-full bg-purple-800 hover:bg-purple-900 flex items-center justify-center text-white text-xs">+</div>
                             </div>
                             <div className="row-start-8 col-start-3 flex items-center justify-center">
-                                <div className="w-8 h-8 rounded-full bg-purple-800 flex items-center justify-center text-white text-xs">+</div>
+                                <div className="w-8 h-8 rounded-full bg-purple-800 hover:bg-purple-900 flex items-center justify-center text-white text-xs">+</div>
                             </div>
                             <div className="row-start-9 col-start-1 flex items-center justify-center">
-                                <div className="w-8 h-8 rounded-full bg-purple-800 flex items-center justify-center text-white text-xs">+</div>
+                                <div className="w-8 h-8 rounded-full bg-purple-800 hover:bg-purple-900 flex items-center justify-center text-white text-xs">+</div>
                             </div>
                             <div className="row-start-9 col-start-2 flex items-center justify-center">
-                                <div className="w-8 h-8 rounded-full bg-purple-800 flex items-center justify-center text-white text-xs">+</div>
+                                <div className="w-8 h-8 rounded-full bg-purple-800 hover:bg-purple-900 flex items-center justify-center text-white text-xs">+</div>
                             </div>
                             <div className="row-start-9 col-start-4 flex items-center justify-center">
-                                <div className="w-8 h-8 rounded-full bg-purple-800 flex items-center justify-center text-white text-xs">+</div>
+                                <div className="w-8 h-8 rounded-full bg-purple-800 hover:bg-purple-900 flex items-center justify-center text-white text-xs">+</div>
                             </div>
                             <div className="row-start-9 col-start-5 flex items-center justify-center">
-                                <div className="w-8 h-8 rounded-full bg-purple-800 flex items-center justify-center text-white text-xs">+</div>
+                                <div className="w-8 h-8 rounded-full bg-purple-800 hover:bg-purple-900 flex items-center justify-center text-white text-xs">+</div>
                             </div>
                             <div className="row-start-10 col-start-3 flex items-center justify-center">
-                                <div className="w-8 h-8 rounded-full bg-purple-800 flex items-center justify-center text-white text-xs">+</div>
+                                <div className="w-8 h-8 rounded-full bg-purple-800 hover:bg-purple-900 flex items-center justify-center text-white text-xs">+</div>
                             </div>
                         </div>
                     </div>
-
-
-                    <div className="justify-center flex">
-                        <div className="bg-white mt-5 w-88 h-40 rounded-lg">
-                            <p className="text-black text-center font-bold">Banco de reservas</p>
-                            <p className="text-black ml-3 font-bold">Lista de reservas:</p>
-                            <div className="h-0.5 w-77 justify-center flex bg-[#cecece] ml-3"></div>
-                            <ul className="text-black ml-5">
-                                <li>Ana Luisa Carvalho</li>
-                                <div className="h-0.5 w-75 justify-center flex bg-[#f1f1f1]"></div>
-                                <li>Andressa Guastaferro</li>
-                                <div className="h-0.5 w-75 justify-center flex bg-[#f1f1f1]"></div>
-                                <li>Fernanda Julião</li>
-                            </ul>
+                    <div>
+                        <div className="justify-center flex mt-5 lg:mt-0">
+                            <div className="bg-white w-88 h-40 rounded-lg">
+                                <p className="text-black text-center font-bold">Banco de reservas</p>
+                                <p className="text-black ml-3 font-bold">Lista de reservas:</p>
+                                <div className="h-0.5 w-77 justify-center flex bg-[#cecece] ml-3"></div>
+                                <ul className="text-black ml-5">
+                                    <li>Ana Luisa Carvalho</li>
+                                    <div className="h-0.5 w-75 justify-center flex bg-[#f1f1f1]"></div>
+                                    <li>Andressa Guastaferro</li>
+                                    <div className="h-0.5 w-75 justify-center flex bg-[#f1f1f1]"></div>
+                                    <li>Fernanda Julião</li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div className=" justify-center flex mt-5">
-                        <div className="bg-green-500 w-60 h-8 rounded-lg hover:bg-green-700">
-                            <p className="text-center">Completar com time já pronto</p>
+                        <div className=" justify-center flex mt-5">
+                            <div className="bg-green-500 w-60 h-8 rounded-lg hover:bg-green-700">
+                                <p className="text-center">Completar com time já pronto</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
 
             <div className="h-10 lg:hidden"></div>
 
