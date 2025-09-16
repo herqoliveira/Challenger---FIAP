@@ -12,13 +12,11 @@
 
 Aplicação web desenvolvida como parte de um projeto de **storytelling e tecnologia** para democratizar o futebol feminino no Brasil.  
 
-🔗 **Acesse aqui:** [Passa A Bola](http://challenger-fiap-v8zj.vercel.app)  
-
-**Login de acesso:**  
-```
-Email: carolzinha1991@gmail.com  
-Senha: Carol1234
-```
+🔗 **Acesse aqui:** [Passa A Bola](http://challenger-fiap-v8zj.vercel.app) 
+**Login de acesso:** 
+--- 
+| Email: carolzinha1991@gmail.com 
+| Senha: Carol1234
 
 ---
 
