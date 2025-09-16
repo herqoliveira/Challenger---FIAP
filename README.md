@@ -177,8 +177,3 @@ npm run start
 ```
 
 ---
-
-## 👨‍💻 Contribuidores  
-
-- Herq Oliveira  
-- Equipe FIAP Challenge  
