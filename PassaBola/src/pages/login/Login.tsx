@@ -11,7 +11,7 @@ export default function Login() {
 
     const handleLogin = (e: React.FormEvent) => {
         e.preventDefault();
-        // Login estático
+
         if (email === "carolzinha1991@gmail.com" && senha === "Carol1234") {
             setLogado(true);
             setErro(false);
@@ -31,7 +31,6 @@ export default function Login() {
                     <p className="text-center mb-2">Seja bem vindo ao ambiente Passa Bola</p>
                     <div className="h-0.5 w-80 bg-gray-900"></div>
 
-                    {/* Formulário */}
                     {!logado ? (
                         <form onSubmit={handleLogin} className="flex flex-col w-full items-center">
                             <p className="m-1">Email:</p>
@@ -61,7 +60,7 @@ export default function Login() {
                             </button>
                         </form>
                     ) : (
-                        // Botão que aparece quando login é correto
+
                         <Link to="/home">
                             <button className="bg-[#ec4d9d] hover:bg-[#c54384] px-4 py-2 rounded mt-4">
                                 Ir para página principal
