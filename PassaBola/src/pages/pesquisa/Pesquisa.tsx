@@ -41,20 +41,20 @@ export default function Pesquisa() {
             <div className="h-25"></div>
             
             <div className="justify-center flex">
-                <div className="flex bg-[#000000] rounded-lg w-90 h-80 p-4 border border-black">
+                <div className="flex bg-[#000000] rounded-lg w-90 h-80 p-4 border border-black lg:w-150">
                     <div className="flex flex-col w-full">
                         <div className="flex flex-row justify-between">
                             <p className="text-white mt-2">Últimas pesquisas</p>
-                            <p className="text-blue-500 mt-2">Limpar tudo</p>
+                            <p className="text-blue-500 mt-2 hover:text-blue-700">Limpar tudo</p>
                         </div>
                         <Link to="/perfil">
-                            <div className="bg-[#050505] w-full h-20 mt-4 p-1 flex flex-row">
+                            <div className="bg-[#050505] w-full h-20 mt-4 p-1 flex flex-row hover:bg-[#070707]">
                                 <img src={jogadora1} alt="" className="w-17 h-17"/>
                                 <p className="font-bold mt-5 px-5">@anacarvalho17</p>
                             </div>
                         </Link>
                         <Link to="/perfil2">
-                            <div className="bg-[#050505] w-full h-20 mt-4 p-1 flex flex-row">
+                            <div className="bg-[#050505] w-full h-20 mt-4 p-1 flex flex-row hover:bg-[#070707]">
                                 <img src={jogadora2} alt="" className="w-17 h-17"/>
                                 <p className="font-bold mt-5 px-5">@betsantos</p>
                             </div>
