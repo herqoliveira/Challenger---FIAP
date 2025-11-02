@@ -22,38 +22,38 @@ export default function Config() {
             <div className="flex justify-center">
                 <div className="bg-black w-100 h-125 p-4 rounded-lg">
                     <Link to="/times">
-                        <div className="flex mt-1">
+                        <div className="flex mt-1 hover:bg-[#1b1b1b] rounded-lg">
                             <img src={time} alt="" className="w-8 h-8" />
                             <p className="py-1.5 ml-3">Meus times</p>
                         </div>
                     </Link>
 
-                    <div className="bg-[#0c0c0c] h-0.5 w-90 roundde-lg"></div>
+                    <div className="bg-[#0c0c0c] h-0.5 w-90 rounded-lg mt-1"></div>
 
-                    <div className="flex mt-1">
+                    <div className="flex mt-1 hover:bg-[#1b1b1b] rounded-lg">
                         <img src={config} alt="" className="w-8 h-8" />
                         <p className="py-1.5 ml-3">Configurações</p>
                     </div>
 
-                    <div className="bg-[#0c0c0c] h-0.5 w-90 roundde-lg"></div>
+                    <div className="bg-[#0c0c0c] h-0.5 w-90 rounded-lg mt-1"></div>
                     <Link to="/buscarpartida">
-                        <div className="flex mt-1">
+                        <div className="flex mt-1 hover:bg-[#1b1b1b] rounded-lg">
                             <img src={lupa} alt="" className="w-8 h-8" />
                             <p className="py-1.5 ml-3">Buscar partidas</p>
                         </div>
                     </Link>
 
 
-                    <div className="bg-[#0c0c0c] h-0.5 w-90 roundde-lg"></div>
+                    <div className="bg-[#0c0c0c] h-0.5 w-90 rounded-lg mt-1"></div>
 
-                    <div className="flex mt-1">
+                    <div className="flex mt-1 hover:bg-[#1b1b1b] rounded-lg">
                         <img src={quadra} alt="" className="w-8 h-8" />
                         <p className="py-1.5 ml-3">Quadras parceiras</p>
                     </div>
 
-                    <div className="bg-[#0c0c0c] h-0.5 w-90 roundde-lg"></div>
+                    <div className="bg-[#0c0c0c] h-0.5 w-90 rounded-lg mt-1"></div>
 
-                    <div className="flex mt-1">
+                    <div className="flex mt-1 hover:bg-[#1b1b1b] rounded-lg">
                         <img src={loja} alt="" className="w-8 h-8" />
                         <p className="py-1.5 ml-3">Loja Passa Bola</p>
                     </div>
