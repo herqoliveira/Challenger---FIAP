@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../imgs/logopassabola.png";
+
 import casa from "../../imgs/homevazia.png";
 import video from "../../imgs/videovazio.png";
 import bola from "../../imgs/bola.png";
@@ -8,42 +8,11 @@ import jogadora1 from "../../imgs/jogadora1.png";
 import jogadora3 from "../../imgs/jogadora3.png";
 import microfone from "../../imgs/microfone.png";
 import clip from "../../imgs/clip.png";
-import voltar from "../../imgs/voltar.png";
+
 export default function ChatPv() {
     return (
         <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
-            <header className="fixed top-0 w-full shadow-md z-2 bg-[#000000]">
-                <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-
-                    <Link to="/perfil">
-                        <img
-                            src={voltar}
-                            alt="Logo"
-                            className="h-8 w-8 object-contain"
-                        />
-                    </Link>
-
-                    <div className="flex-grow max-w-md mx-6">
-                        <Link to="/pesquisa">
-                            <input
-                                type="text"
-                                placeholder="Pesquisar..."
-                                className="w-full px-4 py-2 rounded-lg bg-white text-black placeholder-gray-400"
-                            />
-                        </Link>
-                    </div>
-
-                    <Link to="/config">
-                        <img
-                            src={logo}
-                            alt="Logo"
-                            className="h-12 w-12 object-contain"
-                        />
-                    </Link>
-
-                </div>
-                <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
-            </header>
+            
             <div className="h-20"></div>
 
             <div className="justify-center flex">
@@ -54,7 +23,7 @@ export default function ChatPv() {
                     </div>
                     <div className="flex mt-2">
                         <img src={jogadora1} alt="" className="w-10 h-10" />
-                        <div className="bg-[#c0c0c0] w-60 h-17 rounded-lg p-2 text-black">Nossa, fico muito feliz em saber, conheço sim!!</div>
+                        <div className="bg-[#c0c0c0] w-60 h-17 rounded-lg p-2 text-black">Nossa, fico muito feliz em saber, conheço simmmmmm!!</div>
                     </div>
                     <div className="w-full h-0.5 bg-[#ec4d9d] mt-70"></div>
                     <div className="justify-center flex mt-1 gap-2">

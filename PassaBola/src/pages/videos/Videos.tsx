@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../imgs/logopassabola.png";
+
 import casa from "../../imgs/homevazia.png";
 import video from "../../imgs/video.png";
 import bola from "../../imgs/bola.png";
@@ -17,32 +17,7 @@ import jogadora3 from "../../imgs/jogadora3.png";
 export default function Videos() {
     return (
         <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
-            <header className="fixed top-0 w-full shadow-md z-2 bg-[#000000]">
-                <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-
-                    <div className="w-12" />
-
-                    <div className="flex-grow max-w-md mx-6">
-                        <Link to="/pesquisa">
-                            <input
-                                type="text"
-                                placeholder="Pesquisar..."
-                                className="w-full px-4 py-2 rounded-lg bg-white text-black placeholder-gray-400"
-                            />
-                        </Link>
-                    </div>
-
-                    <Link to="/config">
-                        <img
-                            src={logo}
-                            alt="Logo"
-                            className="h-12 w-12 object-contain"
-                        />
-                    </Link>
-
-                </div>
-                <div className="w-full h-0.5 bg-[#ec4d9d]"></div>
-            </header>
+            
             <div className="h-25"></div>
             <div className="flex justify-center flex-col items-center gap-4">
 
@@ -58,7 +33,7 @@ export default function Videos() {
                 </div>
 
                 <div className="gap-10">
-                    <div className="bg-white w-90 h-105 flex flex-col rounded-lg lg:w-150">
+                    <div className="bg-white w-90 h-97 flex flex-col rounded-lg lg:w-150">
                         <div className="flex gap-5 px-4 py-4">
                             <img src={jogadora2} alt="" className="w-10 h-10" />
                             <p className="text-black py-1.5 font-bold">Betinha Santos</p>
