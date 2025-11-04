@@ -6,6 +6,7 @@ import { v4 as uuidv4 } from "uuid";
 
 export default function CadastroJogadora() {
   const [nome, setNome] = useState("");
+  const [nome_usu, setNome_usu] = useState("");
   const [idade, setIdade] = useState<number | "">("");
   const [posicao, setPosicao] = useState("");
   const [foto, setFoto] = useState<string | null>(null);
@@ -25,7 +26,7 @@ export default function CadastroJogadora() {
   };
 
   const handleSalvar = () => {
-    if (!nome || !idade || !posicao || !email || !senha) {
+    if (!nome || !idade || !posicao || !email || !senha || !nome_usu) {
       setMensagem("⚠️ Preencha todos os campos obrigatórios!");
       return;
     }
@@ -33,6 +34,7 @@ export default function CadastroJogadora() {
     const novaJogadora: Jogadora = {
       id: uuidv4(),
       nome,
+      nome_usu,
       idade: Number(idade),
       posicao,
       foto: foto || "",
@@ -59,6 +61,17 @@ export default function CadastroJogadora() {
             value={nome}
             onChange={(e) => setNome(e.target.value)}
             type="text"
+            className="w-full mt-1 p-2 rounded bg-gray-800 text-white"
+          />
+        </label>
+
+        <label>
+          Nome de usuária:
+          <input
+            value={nome}
+            onChange={(e) => setNome_usu(e.target.value)}
+            type="text"
+            placeholder="ex: @marta1234"
             className="w-full mt-1 p-2 rounded bg-gray-800 text-white"
           />
         </label>

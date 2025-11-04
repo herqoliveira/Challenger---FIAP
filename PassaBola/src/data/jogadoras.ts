@@ -1,6 +1,7 @@
 export interface Jogadora {
   id: string;
   nome: string;
+  nome_usu: string;
   idade: number;
   posicao: string;
   foto: string;
