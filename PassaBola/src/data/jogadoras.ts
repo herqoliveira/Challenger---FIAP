@@ -1,6 +1,3 @@
-
-
-
 export interface Jogadora {
   id: string;
   nome: string;

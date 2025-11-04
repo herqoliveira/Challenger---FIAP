@@ -16,6 +16,7 @@ import BuscarPartida from "./pages/config/BuscarPartida";
 import Quadra1 from "./pages/quadras/Quadra1";
 import Chat3 from "./pages/quadras/Chat3";
 import Login from "./pages/login/Login";
+import CadastroJogadora from "./pages/login/CadastroJogadora";
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
 
         {/* Página de login SEM layout */}
         <Route path="/login" element={<Login />} />
-
+        <Route path="/cadastro" element={<CadastroJogadora />} />
         {/* Todas as páginas com Header/Footer */}
         <Route element={<MainLayout />}>
           <Route path="/home" element={<Home />} />
