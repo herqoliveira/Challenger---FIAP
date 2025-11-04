@@ -4,26 +4,16 @@ export interface Jogadora {
   idade: number;
   posicao: string;
   foto: string;
+  time: string;
+  email: string;
+  senha: string;
 }
 
-
 export const POSICOES = [
-  "GOL", // goleira
-  "ZAG", // zagueira
-  "LE",  // lateral esquerda
-  "LD",  // lateral direita
-  "VOL", // volante
-  "MC",  // meio-campo
-  "MD",  // meia direita
-  "ME",  // meia esquerda
-  "PD",  // ponta direita
-  "PE",  // ponta esquerda
-  "ATA", // atacante
+  "GOL", "ZAG", "LE", "LD", "VOL", "MC", "MD", "ME", "PD", "PE", "ATA"
 ];
 
-
-export const jogadores: Jogadora[] = [];
-
+export const jogadoras: Jogadora[] = [];
 
 export function salvarJogadoras(jogadoras: Jogadora[]) {
   localStorage.setItem("jogadoras", JSON.stringify(jogadoras));

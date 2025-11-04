@@ -1,29 +1,31 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { POSICOES, carregarJogadoras, salvarJogadoras } from "../../data/jogadoras";
 import type { Jogadora } from "../../data/jogadoras";
-
-import { v4 as uuidv4 } from "uuid"; // para gerar IDs únicos
+import { v4 as uuidv4 } from "uuid";
 
 export default function CadastroJogadora() {
   const [nome, setNome] = useState("");
   const [idade, setIdade] = useState<number | "">("");
   const [posicao, setPosicao] = useState("");
   const [foto, setFoto] = useState<string | null>(null);
+  const [time, setTime] = useState("");
+  const [email, setEmail] = useState("");
+  const [senha, setSenha] = useState("");
   const [mensagem, setMensagem] = useState("");
 
-  // Função para lidar com upload da imagem
+  const navigate = useNavigate();
+
   const handleFotoChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file) return;
-
     const reader = new FileReader();
     reader.onloadend = () => setFoto(reader.result as string);
     reader.readAsDataURL(file);
   };
 
-  // Função para salvar jogadora
   const handleSalvar = () => {
-    if (!nome || !idade || !posicao) {
+    if (!nome || !idade || !posicao || !email || !senha) {
       setMensagem("⚠️ Preencha todos os campos obrigatórios!");
       return;
     }
@@ -34,16 +36,16 @@ export default function CadastroJogadora() {
       idade: Number(idade),
       posicao,
       foto: foto || "",
+      time,
+      email,
+      senha,
     };
 
     const jogadoras = carregarJogadoras();
     salvarJogadoras([...jogadoras, novaJogadora]);
 
-    setMensagem("✅ Jogadora cadastrada com sucesso!");
-    setNome("");
-    setIdade("");
-    setPosicao("");
-    setFoto(null);
+    setMensagem("✅ Jogadora cadastrada com sucesso! Redirecionando...");
+    setTimeout(() => navigate("/login"), 1500);
   };
 
   return (
@@ -85,6 +87,36 @@ export default function CadastroJogadora() {
               </option>
             ))}
           </select>
+        </label>
+
+        <label>
+          Time do coração:
+          <input
+            value={time}
+            onChange={(e) => setTime(e.target.value)}
+            type="text"
+            className="w-full mt-1 p-2 rounded bg-gray-800 text-white"
+          />
+        </label>
+
+        <label>
+          Email:
+          <input
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            type="email"
+            className="w-full mt-1 p-2 rounded bg-gray-800 text-white"
+          />
+        </label>
+
+        <label>
+          Senha:
+          <input
+            value={senha}
+            onChange={(e) => setSenha(e.target.value)}
+            type="password"
+            className="w-full mt-1 p-2 rounded bg-gray-800 text-white"
+          />
         </label>
 
         <label>
