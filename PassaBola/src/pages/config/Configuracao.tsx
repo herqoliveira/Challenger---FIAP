@@ -5,7 +5,7 @@ import video from "../../imgs/videovazio.png";
 import bola from "../../imgs/bola.png";
 import perfil from "../../imgs/perfilvazio.png";
 
-/* Ícones do conteúda da página*/
+
 import time from "../../imgs/team.png";
 import config from "../../imgs/config.png";
 import lupa from "../../imgs/lupa.png";
