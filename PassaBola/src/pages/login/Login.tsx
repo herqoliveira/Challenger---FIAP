@@ -36,7 +36,7 @@ export default function Login() {
       <div className="h-20"></div>
 
       <div className="flex justify-center">
-        <div className="bg-black w-90 h-90 rounded-lg p-4 flex flex-col items-center lg:ml-145 mt-10">
+        <div className="bg-black w-90 h-95 rounded-lg p-4 flex flex-col items-center lg:ml-145 mt-10">
           <img src={logo} alt="" className="w-15 h-15 mb-4" />
           <p className="text-center mb-2">Seja bem-vinda ao Passa Bola</p>
           <div className="h-0.5 w-80 bg-gray-900"></div>
@@ -62,13 +62,17 @@ export default function Login() {
                 required
               />
               {erro && <p className="text-red-500 mb-2">Email ou senha incorretos</p>}
+
+              <p className="text-center mb-2 mt-1">Não possui cadastro?<span className="text-[#ec4d9d] ml-1"><Link to="/cadastro">Cadastre-se</Link></span> </p>
               <button
                 type="submit"
                 className="bg-[#ec4d9d] hover:bg-[#c54384] px-4 py-2 rounded"
               >
                 Entrar
               </button>
+              
             </form>
+
           ) : (
             <Link to="/home">
               <button className="bg-[#ec4d9d] hover:bg-[#c54384] px-4 py-2 rounded mt-4">

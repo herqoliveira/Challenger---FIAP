@@ -72,7 +72,7 @@ export default function CadastroJogadora() {
             <label>
               Nome de usuária:
               <input
-                value={nome}
+                value={nome_usu}
                 onChange={(e) => setNome_usu(e.target.value)}
                 type="text"
                 placeholder="ex: @marta1234"
