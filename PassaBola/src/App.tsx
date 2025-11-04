@@ -17,7 +17,7 @@ import Quadra1 from "./pages/quadras/Quadra1";
 import Chat3 from "./pages/quadras/Chat3";
 import Login from "./pages/login/Login";
 import CadastroJogadora from "./pages/login/CadastroJogadora";
-
+import Dashboard from "./pages/perfil/Dashboard";
 function App() {
   return (
     <Router>
@@ -44,6 +44,7 @@ function App() {
           <Route path="/buscarpartida" element={<BuscarPartida />} />
           <Route path="/quadra1" element={<Quadra1 />} />
           <Route path="/chat3" element={<Chat3 />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Route>
       </Routes>
     </Router>
