@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import casa from "../../imgs/homevazia.png";
+import casa from "../../imgs/home.png";
 import video from "../../imgs/videovazio.png";
 import bola from "../../imgs/bola.png";
 import perfil from "../../imgs/perfilvazio.png";
@@ -168,7 +168,7 @@ export default function Quadra1() {
                     <Link to="/home">
                         <div className="flex">
                             <img src={casa} alt="Home" className="w-10 h-10 mb-6" />
-                            <p className="mt-2.5 ml-1">Home</p>
+                            <p className="mt-2.5 ml-1 font-bold">Home</p>
                         </div>
                     </Link>
                     <Link to="/videos">
