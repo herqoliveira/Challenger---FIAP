@@ -50,15 +50,17 @@ export default function Perfil3() {
             <li>• {jogadora.idade} anos</li>
             <li>• {jogadora.time || "Sem time favorito"}</li>
           </ol>
-          <div className="text-black bg-white mt-5 text-center rounded-lg cursor-pointer">
+
+          {/* BOTÕES ESTILIZADOS */}
+          <div className="border border-pink-500 bg-black text-white mt-5 text-center rounded-lg cursor-pointer px-4 py-2 hover:bg-pink-500 hover:text-black transition">
             Editar perfil
           </div>
+
           <Link to="/dashboard">
-            <div className="text-black bg-white mt-5 text-center rounded-lg cursor-pointer">
+            <div className="border border-pink-500 bg-black text-white mt-5 text-center rounded-lg cursor-pointer px-4 py-2 hover:bg-pink-500 hover:text-black transition">
               Meus dados
             </div>
           </Link>
-          
         </div>
       </div>
 
