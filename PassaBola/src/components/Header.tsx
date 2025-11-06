@@ -18,7 +18,8 @@ export default function Header() {
         "/perfil": "/pesquisa",
         "/perfil2": "/pesquisa",
         "/chat3": "/quadra1",
-        "/dashboard": "/perfil3"
+        "/dashboard": "/perfil3",
+        "/quadrasparceiras": "/config"
     };
     const BotaoChat: Record<string, string> = {
         "/quadra1": "/chat3",

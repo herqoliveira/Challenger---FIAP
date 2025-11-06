@@ -45,12 +45,12 @@ export default function Config() {
 
 
                     <div className="bg-[#0c0c0c] h-0.5 w-90 rounded-lg mt-1"></div>
-
-                    <div className="flex mt-1 hover:bg-[#1b1b1b] rounded-lg">
-                        <img src={quadra} alt="" className="w-8 h-8" />
-                        <p className="py-1.5 ml-3">Quadras parceiras</p>
-                    </div>
-
+                    <Link to="/quadrasparceiras">
+                        <div className="flex mt-1 hover:bg-[#1b1b1b] rounded-lg">
+                            <img src={quadra} alt="" className="w-8 h-8" />
+                            <p className="py-1.5 ml-3">Quadras parceiras</p>
+                        </div>
+                    </Link>
                     <div className="bg-[#0c0c0c] h-0.5 w-90 rounded-lg mt-1"></div>
 
                     <div className="flex mt-1 hover:bg-[#1b1b1b] rounded-lg">
