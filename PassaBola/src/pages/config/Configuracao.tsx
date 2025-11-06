@@ -6,6 +6,7 @@ import bola from "../../imgs/bola.png";
 import perfil from "../../imgs/perfilvazio.png";
 
 
+
 import time from "../../imgs/team.png";
 import config from "../../imgs/config.png";
 import lupa from "../../imgs/lupa.png";
@@ -52,12 +53,17 @@ export default function Config() {
                         </div>
                     </Link>
                     <div className="bg-[#0c0c0c] h-0.5 w-90 rounded-lg mt-1"></div>
+                    <a
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
 
-                    <div className="flex mt-1 hover:bg-[#1b1b1b] rounded-lg">
-                        <img src={loja} alt="" className="w-8 h-8" />
-                        <p className="py-1.5 ml-3">Loja Passa Bola</p>
-                    </div>
-
+                        <div className="flex mt-1 hover:bg-[#1b1b1b] rounded-lg">
+                            <img src={loja} alt="" className="w-8 h-8" />
+                            <p className="py-1.5 ml-3">Loja Passa Bola</p>
+                        </div>
+                    </a>
                 </div>
             </div>
 
