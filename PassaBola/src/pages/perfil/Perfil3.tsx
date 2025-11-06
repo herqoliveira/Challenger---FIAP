@@ -17,7 +17,6 @@ export default function Perfil3() {
     if (data) {
       setJogadora(JSON.parse(data));
     } else {
-      // se não houver jogadora logada, redireciona para login
       navigate("/login");
     }
   }, [navigate]);
@@ -54,6 +53,12 @@ export default function Perfil3() {
           <div className="text-black bg-white mt-5 text-center rounded-lg cursor-pointer">
             Editar perfil
           </div>
+          <Link to="/dashboard">
+            <div className="text-black bg-white mt-5 text-center rounded-lg cursor-pointer">
+              Meus dados
+            </div>
+          </Link>
+          
         </div>
       </div>
 
