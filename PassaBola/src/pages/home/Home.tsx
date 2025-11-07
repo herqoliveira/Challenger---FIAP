@@ -13,10 +13,10 @@ import site from "../../imgs/selecaobrasileira.png";
 
 export default function Home() {
     return (
-        <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
+        <div className="min-h-screen flex flex-col bg-gradient-to-b from-[#0b1020] to-[#21102a] text-white">
             <div className="h-20"></div>
             <div className="flex justify-center">
-                <div className="flex flex-col gap-4 p-4 bg-black h-282 w-98 lg:w-150">
+                <div className="flex flex-col gap-4 p-4 bg-[#00000069] h-282 w-98 lg:w-150">
 
                     <div className="bg-green-700 text-white w-90 rounded-lg shadow p-4 lg:w-140">
                         <div className="flex justify-between items-center">

@@ -56,7 +56,6 @@ export default function QuadrasParceiras() {
   const contentRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
 
-  // Detecta automaticamente a altura da navbar fixa
   useEffect(() => {
     const navbar = document.querySelector("nav") as HTMLElement;
     if (navbar) {
@@ -72,7 +71,7 @@ export default function QuadrasParceiras() {
       style={{ paddingTop: `${navHeight + 40}px` }}
     >
       <div className="max-w-7xl mx-auto">
-        {/* Botão de voltar */}
+
         <button
           onClick={() => navigate(-1)}
           className="mb-6 bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-2 rounded-full shadow-lg hover:opacity-90 transition font-semibold"
@@ -87,7 +86,7 @@ export default function QuadrasParceiras() {
           Encontre e reserve quadras próximas
         </p>
 
-        {/* Grid de quadras */}
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {quadras.map((quadra, index) => (
             <div

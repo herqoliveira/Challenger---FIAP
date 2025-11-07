@@ -15,13 +15,13 @@ import loja from "../../imgs/loja.png";
 
 export default function Config() {
     return (
-        <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
+        <div className="min-h-screen flex flex-col bg-gradient-to-b from-[#0b1020] to-[#21102a] text-white">
            
             <div className="h-20"></div>
 
 
             <div className="flex justify-center">
-                <div className="bg-black w-100 h-125 p-4 rounded-lg">
+                <div className="bg-[#00000069] w-100 h-125 p-4 rounded-lg">
                     <Link to="/times">
                         <div className="flex mt-1 hover:bg-[#1b1b1b] rounded-lg">
                             <img src={time} alt="" className="w-8 h-8" />
@@ -29,14 +29,14 @@ export default function Config() {
                         </div>
                     </Link>
 
-                    <div className="bg-[#0c0c0c] h-0.5 w-90 rounded-lg mt-1"></div>
+                    <div className="bg-[#5e5e5e] h-0.5 w-90 rounded-lg mt-1"></div>
 
                     <div className="flex mt-1 hover:bg-[#1b1b1b] rounded-lg">
                         <img src={config} alt="" className="w-8 h-8" />
                         <p className="py-1.5 ml-3">Configurações</p>
                     </div>
 
-                    <div className="bg-[#0c0c0c] h-0.5 w-90 rounded-lg mt-1"></div>
+                    <div className="bg-[#5e5e5e] h-0.5 w-90 rounded-lg mt-1"></div>
                     <Link to="/buscarpartida">
                         <div className="flex mt-1 hover:bg-[#1b1b1b] rounded-lg">
                             <img src={lupa} alt="" className="w-8 h-8" />
@@ -45,14 +45,14 @@ export default function Config() {
                     </Link>
 
 
-                    <div className="bg-[#0c0c0c] h-0.5 w-90 rounded-lg mt-1"></div>
+                    <div className="bg-[#5e5e5e] h-0.5 w-90 rounded-lg mt-1"></div>
                     <Link to="/quadrasparceiras">
                         <div className="flex mt-1 hover:bg-[#1b1b1b] rounded-lg">
                             <img src={quadra} alt="" className="w-8 h-8" />
                             <p className="py-1.5 ml-3">Quadras parceiras</p>
                         </div>
                     </Link>
-                    <div className="bg-[#0c0c0c] h-0.5 w-90 rounded-lg mt-1"></div>
+                    <div className="bg-[#5e5e5e] h-0.5 w-90 rounded-lg mt-1"></div>
                     <a
                         href="https://loja-passa-bola.vercel.app/"
                         target="_blank"

@@ -13,13 +13,13 @@ import jogadora5 from "../../imgs/jogadora5.png";
 
 export default function Times() {
     return (
-        <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
+        <div className="min-h-screen flex flex-col bg-gradient-to-b from-[#0b1020] to-[#21102a] text-white">
             
             <div className="h-20"></div>
 
 
             <div className="flex justify-center">
-                <div className="bg-black w-100 h-125 p-4 rounded-lg lg:w-150">
+                <div className="bg-[#00000069] w-100 h-125 p-4 rounded-lg lg:w-150">
                     <Link to="/times">
                         <div className="flex mt-1">
                             <img src={time} alt="" className="w-8 h-8" />
