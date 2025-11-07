@@ -16,51 +16,53 @@ import jogadora2 from "../../imgs/Jogadora2.png";
 import jogadora3 from "../../imgs/jogadora3.png";
 export default function Videos() {
     return (
-        <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
+
+        
+        <div className="min-h-screen flex flex-col bg-gradient-to-b from-[#0b1020] to-[#21102a] text-white">
             
             <div className="h-25"></div>
             <div className="flex justify-center flex-col items-center gap-4">
 
                 <div className="gap-10">
-                    <div className="bg-white w-90 h-90 flex flex-col rounded-lg lg:w-150">
+                    <div className="bg-[#00000069] w-90 h-90 flex flex-col rounded-lg lg:w-150">
                         <div className="flex gap-5 px-4 py-4">
                             <img src={jogadora1} alt="" className="w-10 h-10" />
-                            <p className="text-black py-1.5 font-bold">Ana Carvalho Oliveira</p>
+                            <p className="text-white py-1.5 font-bold">Ana Carvalho Oliveira</p>
                         </div>
-                        <p className="text-black px-4">Olhem o gol que fiz ontem no final do Campeonato Tocantis Delas. Ganhamos e ganhei a medalha de melhor do time!!</p>
+                        <p className="text-white px-4">Olhem o gol que fiz ontem no final do Campeonato Tocantis Delas. Ganhamos e ganhei a medalha de melhor do time!!</p>
                         <img src={video1} alt="" className="p-4 w-90 h-50 rounded-lg lg:w-149 lg:h-60" />
                     </div>
                 </div>
 
                 <div className="gap-10">
-                    <div className="bg-white w-90 h-97 flex flex-col rounded-lg lg:w-150">
+                    <div className="bg-[#00000069] w-90 h-104 flex flex-col rounded-lg lg:w-150">
                         <div className="flex gap-5 px-4 py-4">
                             <img src={jogadora2} alt="" className="w-10 h-10" />
-                            <p className="text-black py-1.5 font-bold">Betinha Santos</p>
+                            <p className="text-white py-1.5 font-bold">Betinha Santos</p>
                         </div>
-                        <p className="text-black px-4">Que jogo intenso no barrão hoje! Muita marcação, muita garra e aquela energia da torcida que faz toda a diferença. Saímos cansadas, mas felizes demais com o resultado. Futebol é isso: luta, união e alegria em cada lance!</p>
+                        <p className="text-white px-4">Que jogo intenso no barrão hoje! Muita marcação, muita garra e aquela energia da torcida que faz toda a diferença. Saímos cansadas, mas felizes demais com o resultado. Futebol é isso: luta, união e alegria em cada lance!</p>
                         <img src={video2} alt="" className="p-4 w-90 h-50 rounded-lg lg:w-149 lg:h-60" />
                     </div>
                 </div>
 
                 <div className="gap-10">
-                    <div className="bg-white w-90 h-105 flex flex-col rounded-lg lg:w-150">
+                    <div className="bg-[#00000069] w-90 h-105 flex flex-col rounded-lg lg:w-150">
                         <div className="flex gap-5 px-4 py-4">
                             <img src={jogadora3} alt="" className="w-10 h-10" />
-                            <p className="text-black py-1.5 font-bold">Caroline Silva</p>
+                            <p className="text-white py-1.5 font-bold">Caroline Silva</p>
                         </div>
-                        <p className="text-black px-4">Final do interclasse foi pura emoção! Nosso time jogou junto o tempo todo, com muita correria e vontade de vencer. Fechamos o campeonato com chave de ouro e ainda garanti meu destaque no jogo. Orgulho demais da nossa equipe!</p>
+                        <p className="text-white px-4">Final do interclasse foi pura emoção! Nosso time jogou junto o tempo todo, com muita correria e vontade de vencer. Fechamos o campeonato com chave de ouro e ainda garanti meu destaque no jogo. Orgulho demais da nossa equipe!</p>
                         <img src={video3} alt="" className="p-4 w-90 h-50 rounded-lg lg:w-149 lg:h-60" />
                     </div>
                 </div>
 
                 <div className="gap-10">
-                    <div className="bg-white w-90 h-105 flex flex-col rounded-lg lg:w-150">
+                    <div className="bg-[#00000069] w-90 h-105 flex flex-col rounded-lg lg:w-150">
                         <div className="flex gap-5 px-4 py-4">
                             <img src={jogadora1} alt="" className="w-10 h-10" />
-                            <p className="text-black py-1.5 font-bold">Ana Carvalho Oliveira</p>
+                            <p className="text-white py-1.5 font-bold">Ana Carvalho Oliveira</p>
                         </div>
-                        <p className="text-black px-4">Ontem o jogo foi emocionante demais! Partida disputada até o último minuto no Campeonato Noturno, e conseguimos segurar a vitória. Joguei com raça e dei tudo de mim dentro de campo. Que sensação incrível sair com a vitória ao lado desse time maravilhoso!</p>
+                        <p className="text-white px-4">Ontem o jogo foi emocionante demais! Partida disputada até o último minuto no Campeonato Noturno, e conseguimos segurar a vitória. Joguei com raça e dei tudo de mim dentro de campo. Que sensação incrível sair com a vitória ao lado desse time maravilhoso!</p>
                         <img src={video4} alt="" className="p-4 w-90 h-50 rounded-lg lg:w-149 lg:h-60" />
                     </div>
                 </div>

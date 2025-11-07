@@ -99,11 +99,11 @@ export default function Quadra1() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
+    <div className="min-h-screen flex flex-col bg-gradient-to-b from-[#0b1020] to-[#21102a] text-white">
       <div className="h-20" />
 
       <div className="flex justify-center">
-        <div className="bg-black w-90 p-4 rounded-lg lg:w-auto lg:flex lg:gap-8">
+        <div className="bg-[#00000069] w-90 p-4 rounded-lg lg:w-auto lg:flex lg:gap-8">
           {/* QUADRA */}
           <div className="flex justify-center">
             <div
@@ -150,7 +150,7 @@ export default function Quadra1() {
           {/* BANCO */}
           <div>
             <div className="justify-center flex mt-5 lg:mt-0">
-              <div className="bg-white w-88 h-47 rounded-lg">
+              <div className="bg-[#ffffff] w-88 h-47 rounded-lg">
                 <p className="text-black text-center font-bold">Banco de reservas</p>
                 <p className="text-black ml-3 font-bold">Lista de reservas:</p>
                 <div className="h-0.5 w-77 justify-center flex bg-[#cecece] ml-3"></div>
@@ -173,7 +173,7 @@ export default function Quadra1() {
               </div>
             </div>
             <div className="justify-center flex mt-5">
-              <div className="bg-green-500 w-60 h-8 rounded-lg hover:bg-green-700">
+              <div className="bg-[#4caf50] w-60 h-8 rounded-lg hover:bg-[#429846]">
                 <p className="text-center">Completar com time já pronto</p>
               </div>
             </div>

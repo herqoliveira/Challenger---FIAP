@@ -11,25 +11,25 @@ import jogadora2 from "../../imgs/Jogadora2.png";
 
 export default function Pesquisa() {
     return (
-        <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
+        <div className="min-h-screen flex flex-col bg-gradient-to-b from-[#0b1020] to-[#21102a] text-white">
             
             <div className="h-25"></div>
             
             <div className="justify-center flex">
-                <div className="flex bg-[#000000] rounded-lg w-90 h-80 p-4 border border-black lg:w-150">
+                <div className="flex bg-[#00000069] rounded-lg w-90 h-80 p-4 border border-black lg:w-150">
                     <div className="flex flex-col w-full">
                         <div className="flex flex-row justify-between">
                             <p className="text-white mt-2">Últimas pesquisas</p>
                             <p className="text-blue-500 mt-2 hover:text-blue-700">Limpar tudo</p>
                         </div>
                         <Link to="/perfil">
-                            <div className="bg-[#050505] w-full h-20 mt-4 p-1 flex flex-row hover:bg-[#070707]">
+                            <div className="bg-[#05050569] w-full h-20 mt-4 p-1 flex flex-row hover:bg-[#070707]">
                                 <img src={jogadora1} alt="" className="w-17 h-17"/>
                                 <p className="font-bold mt-5 px-5">@anacarvalho17</p>
                             </div>
                         </Link>
                         <Link to="/perfil2">
-                            <div className="bg-[#050505] w-full h-20 mt-4 p-1 flex flex-row hover:bg-[#070707]">
+                            <div className="bg-[#05050569] w-full h-20 mt-4 p-1 flex flex-row hover:bg-[#070707]">
                                 <img src={jogadora2} alt="" className="w-17 h-17"/>
                                 <p className="font-bold mt-5 px-5">@betsantos</p>
                             </div>
