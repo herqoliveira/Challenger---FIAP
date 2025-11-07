@@ -89,7 +89,7 @@ export default function BuscarPartida() {
             </div>
           </Link>
 
-          <div className="bg-[#0c0c0c] h-0.5 w-82 rounded-lg my-3 lg:w-140"></div>
+          <div className="bg-[#5e5e5e] h-0.5 w-82 rounded-lg my-3 lg:w-140"></div>
 
           <CardPartida
             dia="Dia 14/06"

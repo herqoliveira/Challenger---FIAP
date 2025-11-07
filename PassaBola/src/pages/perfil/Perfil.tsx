@@ -12,7 +12,7 @@ import foto2 from "../../imgs/imagem2jogadora.webp";
 
 export default function Perfil() {
     return (
-        <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
+        <div className="min-h-screen flex flex-col bg-gradient-to-b from-[#0b1020] to-[#21102a] text-white">
             
             <div className="h-25"></div>
 
@@ -36,28 +36,28 @@ export default function Perfil() {
             </div>
 
             <div className="flex justify-center">
-                <div className="h-1 bg-gray-900 w-100 rounded-lg"></div>
+                <div className="h-1 bg-[#5e5e5e] w-100 rounded-lg"></div>
             </div>
 
 
             <div className="flex justify-center flex-col items-center gap-4 py-5">
                 <div className="gap-10">
-                    <div className="bg-white w-90 h-90 flex flex-col rounded-lg">
+                    <div className="bg-[#00000069] w-90 h-90 flex flex-col rounded-lg">
                         <div className="flex gap-5 px-4 py-4">
                             <img src={jogadora1} alt="" className="w-10 h-10" />
-                            <p className="text-black py-1.5 font-bold">Ana Carvalho Oliveira</p>
+                            <p className="text-white py-1.5 font-bold">Ana Carvalho Oliveira</p>
                         </div>
-                        <p className="text-black px-4">Olhem o gol que fiz ontem no final do Campeonato Tocantis Delas. Ganhamos e ganhei a medalha de melhor do time!!</p>
+                        <p className="text-white px-4">Olhem o gol que fiz ontem no final do Campeonato Tocantis Delas. Ganhamos e ganhei a medalha de melhor do time!!</p>
                         <img src={video1} alt="" className="p-4 w-90 h-50 rounded-lg" />
                     </div>
                 </div>
                 <div className="gap-10">
-                    <div className="bg-white w-90 h-93 flex flex-col rounded-lg">
+                    <div className="bg-[#00000069] w-90 h-93 flex flex-col rounded-lg">
                         <div className="flex gap-5 px-4 py-4">
                             <img src={jogadora1} alt="" className="w-10 h-10" />
-                            <p className="text-black py-1.5 font-bold">Ana Carvalho Oliveira</p>
+                            <p className="text-white py-1.5 font-bold">Ana Carvalho Oliveira</p>
                         </div>
-                        <p className="text-black px-4">Hoje mais cedo tive a oportunidade de fazer um ensaio de fotos com meu amigo Abel, recomendo muito e estou muito contente com minhas fotos.</p>
+                        <p className="text-white px-4">Hoje mais cedo tive a oportunidade de fazer um ensaio de fotos com meu amigo Abel, recomendo muito e estou muito contente com minhas fotos.</p>
                         <img src={foto2} alt="" className="p-4 w-90 h-50 rounded-lg" />
                     </div>
                 </div>

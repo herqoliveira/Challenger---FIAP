@@ -30,7 +30,7 @@ export default function Perfil3() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
+    <div className="min-h-screen flex flex-col bg-gradient-to-b from-[#0b1020] to-[#21102a] text-white">
       <div className="h-25"></div>
 
       {/* CABEÇALHO PERFIL */}
@@ -65,22 +65,22 @@ export default function Perfil3() {
       </div>
 
       <div className="flex justify-center">
-        <div className="h-1 bg-gray-900 w-100 rounded-lg"></div>
+        <div className="h-1 bg-[#5e5e5e] w-100 rounded-lg"></div>
       </div>
 
       {/* POST FIXO (exemplo) */}
       <div className="flex justify-center flex-col items-center gap-4 py-5">
         <div className="gap-10">
-          <div className="bg-white w-90 h-80 flex flex-col rounded-lg">
+          <div className="bg-[#00000069] w-90 h-80 flex flex-col rounded-lg">
             <div className="flex gap-5 px-4 py-4">
               <img
                 src={jogadora.foto || perfil}
                 alt=""
                 className="w-10 h-10 object-cover rounded-full"
               />
-              <p className="text-black py-1.5 font-bold">{jogadora.nome}</p>
+              <p className="text-white py-1.5 font-bold">{jogadora.nome}</p>
             </div>
-            <p className="text-black px-4">
+            <p className="text-white px-4">
               Olhem minha chuteira nova!! Ganhei da minha patrocinadora (minha mãe 🤣🥰).
             </p>
             <img

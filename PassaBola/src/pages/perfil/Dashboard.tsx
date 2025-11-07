@@ -66,10 +66,10 @@ export default function Dashboard() {
 
   return (
     <div>
-      <div className="min-h-screen bg-[#0c0c0c] text-white flex flex-col items-center">
+      <div className="min-h-screen bg-gradient-to-b from-[#0b1020] to-[#21102a] text-white flex flex-col items-center">
         <div className="h-24"></div>
 
-        <div className="bg-black p-6 rounded-2xl shadow-lg w-11/12 max-w-2xl text-center">
+        <div className="bg-[#00000069] p-6 rounded-2xl shadow-lg w-11/12 max-w-2xl text-center">
           {jogadora && (
             <div className="flex flex-col items-center mb-4">
               <img

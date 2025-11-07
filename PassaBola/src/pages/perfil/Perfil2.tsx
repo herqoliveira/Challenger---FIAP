@@ -11,7 +11,7 @@ import video1 from "../../imgs/video5.png";
 
 export default function Perfil2() {
     return (
-        <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
+        <div className="min-h-screen flex flex-col bg-gradient-to-b from-[#0b1020] to-[#21102a] text-white">
             
             <div className="h-25"></div>
 
@@ -35,18 +35,18 @@ export default function Perfil2() {
             </div>
 
             <div className="flex justify-center">
-                <div className="h-1 bg-gray-900 w-100 rounded-lg"></div>
+                <div className="h-1 bg-[#5e5e5e] w-100 rounded-lg"></div>
             </div>
 
 
             <div className="flex justify-center flex-col items-center gap-4 py-5">
                 <div className="gap-10">
-                    <div className="bg-white w-90 h-90 flex flex-col rounded-lg">
+                    <div className="bg-[#00000069] w-90 h-90 flex flex-col rounded-lg">
                         <div className="flex gap-5 px-4 py-4">
                             <img src={jogadora2} alt="" className="w-10 h-10" />
-                            <p className="text-black py-1.5 font-bold">Betânia Santos Machado</p>
+                            <p className="text-white py-1.5 font-bold">Betânia Santos Machado</p>
                         </div>
-                        <p className="text-black px-4">Apenas observem essa pintura que fiz ontem no jogo do campeonato amador de Bragança 🤫</p>
+                        <p className="text-white px-4">Apenas observem essa pintura que fiz ontem no jogo do campeonato amador de Bragança 🤫</p>
                         <img src={video1} alt="" className="p-4 w-90 h-50 rounded-lg" />
                     </div>
                 </div>

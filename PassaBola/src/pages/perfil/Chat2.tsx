@@ -11,12 +11,12 @@ import clip from "../../imgs/clip.png";
 
 export default function ChatPv2() {
     return (
-        <div className="min-h-screen flex flex-col bg-[#0c0c0c] text-white">
+        <div className="min-h-screen flex flex-col bg-gradient-to-b from-[#0b1020] to-[#21102a] text-white">
             
             <div className="h-20"></div>
 
             <div className="justify-center flex">
-                <div className="bg-black rounded-lg w-90 h-135">
+                <div className="bg-[#00000069] rounded-lg w-90 h-135">
                     <div className="flex mt-2">
                         <div className="bg-white w-60 h-30 rounded-lg ml-28 text-black p-2">Olá, tudo bem, vi seus vídeos e gostei bastante, gostaria de saber se você conhece o Varginha FC?</div>
                         <img src={jogadora3} alt="" className="w-10 h-10" />

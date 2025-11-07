@@ -27,7 +27,7 @@ export default function Times() {
                         </div>
                     </Link>
 
-                    <div className="bg-[#0c0c0c] h-0.5 w-90 rounded-lg lg:w-140"></div>
+                    <div className="bg-[#5e5e5e] h-0.5 w-90 rounded-lg lg:w-140"></div>
 
                     <div className=" flex justify-center">
                         <p className="text-white text-center mt-3 bg-[#036800] w-40 rounded-lg hover:bg-[#035000]">Criar time</p>
