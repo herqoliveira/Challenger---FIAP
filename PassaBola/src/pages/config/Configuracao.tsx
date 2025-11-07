@@ -54,7 +54,7 @@ export default function Config() {
                     </Link>
                     <div className="bg-[#0c0c0c] h-0.5 w-90 rounded-lg mt-1"></div>
                     <a
-                        href="#"
+                        href="https://loja-passa-bola.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
